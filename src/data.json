@@ -1,0 +1,686 @@
+{
+  "dancers": [
+    {
+      "name": "Emily Smith",
+      "description": "Emily is a versatile dancer with a passion for contemporary dance forms. She has been dancing since the age of 5 and has performed in various national and international dance competitions.",
+      "location": "New York City, NY",
+      "skills": ["Contemporary Dance", "Ballet", "Jazz", "Hip-hop"],
+      "image": {
+        "url": "https://example.com/emily-smith.jpg",
+        "alt_text": "Emily Smith dancing on stage"
+      }
+    },
+    {
+      "name": "Michael Johnson",
+      "description": "Michael is a passionate dancer specializing in classical ballet and contemporary dance. He has trained extensively in both genres and has performed in prestigious dance festivals.",
+      "location": "Chicago, IL",
+      "skills": ["Ballet", "Contemporary Dance", "Modern Dance"],
+      "image": {
+        "url": "https://example.com/michael-johnson.jpg",
+        "alt_text": "Michael Johnson performing ballet"
+      }
+    },
+    {
+      "name": "Sophia Rodriguez",
+      "description": "Sophia is a dedicated dancer with a focus on hip-hop and street dance styles. She has won several local dance competitions and teaches dance classes in her community.",
+      "location": "Miami, FL",
+      "skills": ["Hip-hop", "Street Dance", "Jazz Funk"],
+      "image": {
+        "url": "https://example.com/sophia-rodriguez.jpg",
+        "alt_text": "Sophia Rodriguez freestyling"
+      }
+    },
+    {
+      "name": "David Lee",
+      "description": "David is a versatile dancer known for his expertise in salsa, tango, and ballroom dancing. He performs regularly in dance festivals and has taught dance workshops internationally.",
+      "location": "Los Angeles, CA",
+      "skills": ["Salsa", "Tango", "Ballroom Dance"],
+      "image": {
+        "url": "https://example.com/david-lee.jpg",
+        "alt_text": "David Lee dancing salsa"
+      }
+    },
+    {
+      "name": "Anna Nguyen",
+      "description": "Anna is an energetic dancer specializing in jazz and tap dance. She started dancing at a young age and has performed in theater productions and dance showcases.",
+      "location": "Houston, TX",
+      "skills": ["Jazz Dance", "Tap Dance", "Musical Theater Dance"],
+      "image": {
+        "url": "https://example.com/anna-nguyen.jpg",
+        "alt_text": "Anna Nguyen performing tap dance"
+      }
+    },
+    {
+      "name": "Carlos Martinez",
+      "description": "Carlos is a charismatic dancer with a strong background in flamenco and traditional Spanish dance. He has toured extensively with flamenco companies and is known for his expressive performances.",
+      "location": "Madrid, Spain",
+      "skills": ["Flamenco", "Spanish Dance", "Classical Dance"],
+      "image": {
+        "url": "https://example.com/carlos-martinez.jpg",
+        "alt_text": "Carlos Martinez performing flamenco"
+      }
+    },
+    {
+      "name": "Lily Wang",
+      "description": "Lily is a graceful dancer specializing in ballet and contemporary dance. She has trained at prestigious ballet schools and has performed leading roles in ballet productions.",
+      "location": "London, UK",
+      "skills": ["Ballet", "Contemporary Dance", "Modern Ballet"],
+      "image": {
+        "url": "https://example.com/lily-wang.jpg",
+        "alt_text": "Lily Wang in a ballet performance"
+      }
+    },
+    {
+      "name": "Kevin Johnson",
+      "description": "Kevin is a dynamic dancer known for his skills in breakdancing and urban dance styles. He has competed in international breakdance competitions and performs with dance crews.",
+      "location": "Toronto, Canada",
+      "skills": ["Breakdancing", "Urban Dance", "Hip-hop Dance"],
+      "image": {
+        "url": "https://example.com/kevin-johnson.jpg",
+        "alt_text": "Kevin Johnson breakdancing"
+      }
+    },
+    {
+      "name": "Emma Garcia",
+      "description": "Emma is a passionate dancer specializing in Latin dances such as salsa and bachata. She teaches dance classes and performs at salsa clubs and events.",
+      "location": "Miami, FL",
+      "skills": ["Salsa", "Bachata", "Latin Dance"],
+      "image": {
+        "url": "https://example.com/emma-garcia.jpg",
+        "alt_text": "Emma Garcia dancing salsa"
+      }
+    },
+    {
+      "name": "Jason Brown",
+      "description": "Jason is an innovative dancer with a fusion style incorporating elements of ballet, hip-hop, and contemporary dance. He creates choreography for dance companies and music videos.",
+      "location": "New York City, NY",
+      "skills": ["Ballet", "Hip-hop", "Contemporary Fusion"],
+      "image": {
+        "url": "https://example.com/jason-brown.jpg",
+        "alt_text": "Jason Brown performing contemporary dance"
+      }
+    }
+  ],
+
+  "makeup_artists": [
+    {
+      "name": "Emma Johnson",
+      "description": "Emma is a skilled makeup artist specializing in bridal and special occasion makeup. With over 8 years of experience, she has worked with numerous clients for weddings, photo shoots, and fashion shows.",
+      "location": "New York City, NY",
+      "skills": ["Bridal Makeup", "Special Occasion Makeup", "Fashion Makeup"],
+      "image": {
+        "url": "https://example.com/emma-johnson.jpg",
+        "alt_text": "Emma Johnson applying makeup"
+      }
+    },
+    {
+      "name": "Daniel Martinez",
+      "description": "Daniel is a creative makeup artist known for his expertise in theatrical and special effects makeup. He has worked on film sets, theater productions, and Halloween events, creating stunning transformations.",
+      "location": "Los Angeles, CA",
+      "skills": [
+        "Theatrical Makeup",
+        "Special Effects Makeup",
+        "Body Painting"
+      ],
+      "image": {
+        "url": "https://example.com/daniel-martinez.jpg",
+        "alt_text": "Daniel Martinez creating special effects makeup"
+      }
+    },
+    {
+      "name": "Sophie Williams",
+      "description": "Sophie is a versatile makeup artist specializing in editorial and runway makeup. Her work has been featured in fashion magazines and she has collaborated with top designers and photographers.",
+      "location": "London, UK",
+      "skills": ["Editorial Makeup", "Runway Makeup", "High Fashion Makeup"],
+      "image": {
+        "url": "https://example.com/sophie-williams.jpg",
+        "alt_text": "Sophie Williams at a fashion shoot"
+      }
+    },
+    {
+      "name": "Alexandra Lee",
+      "description": "Alexandra is an experienced makeup artist with a passion for natural beauty and skincare. She offers personalized makeup consultations and specializes in enhancing her clients' natural features.",
+      "location": "San Francisco, CA",
+      "skills": ["Natural Makeup", "Skincare Consultations", "Makeup Lessons"],
+      "image": {
+        "url": "https://example.com/alexandra-lee.jpg",
+        "alt_text": "Alexandra Lee demonstrating natural makeup"
+      }
+    },
+    {
+      "name": "Olivia Brown",
+      "description": "Olivia is a makeup artist with a focus on film and television makeup. She has worked on various productions, creating character looks and ensuring makeup continuity throughout filming.",
+      "location": "Toronto, Canada",
+      "skills": ["Film Makeup", "Television Makeup", "Character Makeup"],
+      "image": {
+        "url": "https://example.com/olivia-brown.jpg",
+        "alt_text": "Olivia Brown on a film set"
+      }
+    },
+    {
+      "name": "Maximilian Schmidt",
+      "description": "Maximilian is a makeup artist specializing in avant-garde and artistic makeup. His creative designs have been showcased in art exhibitions and he collaborates with performers and visual artists.",
+      "location": "Berlin, Germany",
+      "skills": ["Avant-garde Makeup", "Artistic Makeup", "Body Art"],
+      "image": {
+        "url": "https://example.com/maximilian-schmidt.jpg",
+        "alt_text": "Maximilian Schmidt creating avant-garde makeup"
+      }
+    },
+    {
+      "name": "Chloe Wilson",
+      "description": "Chloe is a makeup artist known for her skills in airbrush makeup and beauty pageant makeup. She has worked with contestants for major beauty pageants and offers makeup services for special events.",
+      "location": "Sydney, Australia",
+      "skills": ["Airbrush Makeup", "Beauty Pageant Makeup", "Event Makeup"],
+      "image": {
+        "url": "https://example.com/chloe-wilson.jpg",
+        "alt_text": "Chloe Wilson applying airbrush makeup"
+      }
+    },
+    {
+      "name": "Lucas Garcia",
+      "description": "Lucas is a makeup artist specializing in prosthetic and creature makeup effects. He has a background in special effects makeup for horror films and has created realistic prosthetic pieces.",
+      "location": "Mexico City, Mexico",
+      "skills": ["Prosthetic Makeup", "Creature Makeup", "Horror Makeup"],
+      "image": {
+        "url": "https://example.com/lucas-garcia.jpg",
+        "alt_text": "Lucas Garcia applying prosthetic makeup"
+      }
+    },
+    {
+      "name": "Isabella Rossi",
+      "description": "Isabella is a makeup artist with expertise in bridal and editorial makeup. She offers makeup services for weddings, photo shoots, and fashion events, focusing on enhancing natural beauty.",
+      "location": "Milan, Italy",
+      "skills": ["Bridal Makeup", "Editorial Makeup", "Fashion Makeup"],
+      "image": {
+        "url": "https://example.com/isabella-rossi.jpg",
+        "alt_text": "Isabella Rossi creating bridal makeup"
+      }
+    },
+    {
+      "name": "Ryan Johnson",
+      "description": "Ryan is a makeup artist specializing in drag makeup and transformations. He has a background in theater and drag performance, creating bold and dramatic makeup looks.",
+      "location": "Chicago, IL",
+      "skills": [
+        "Drag Makeup",
+        "Theatrical Makeup",
+        "Gender Transformation Makeup"
+      ],
+      "image": {
+        "url": "https://example.com/ryan-johnson.jpg",
+        "alt_text": "Ryan Johnson creating drag makeup"
+      }
+    }
+  ],
+
+  "hair_stylists": [
+    {
+      "name": "Emily Smith",
+      "description": "Emily is a talented hair stylist with a passion for creating elegant and contemporary hairstyles. She has over 10 years of experience in bridal hair and special occasion styling.",
+      "location": "New York City, NY",
+      "skills": ["Bridal Hair", "Special Occasion Styling", "Updos"],
+      "image": {
+        "url": "https://example.com/emily-smith-hairstylist.jpg",
+        "alt_text": "Emily Smith styling bridal hair"
+      }
+    },
+    {
+      "name": "Daniel Martinez",
+      "description": "Daniel is an innovative hair stylist known for his expertise in avant-garde and editorial hair designs. He collaborates with fashion photographers and designers to create unique runway looks.",
+      "location": "Los Angeles, CA",
+      "skills": ["Avant-garde Hair", "Editorial Hair Styling", "Hair Coloring"],
+      "image": {
+        "url": "https://example.com/daniel-martinez-hairstylist.jpg",
+        "alt_text": "Daniel Martinez showcasing avant-garde hair styling"
+      }
+    },
+    {
+      "name": "Sophia Johnson",
+      "description": "Sophia is a creative hair stylist specializing in natural hair care and styling. She offers personalized consultations and enjoys helping clients embrace their natural hair texture.",
+      "location": "Chicago, IL",
+      "skills": ["Natural Hair Care", "Curly Hair Styling", "Haircuts"],
+      "image": {
+        "url": "https://example.com/sophia-johnson-hairstylist.jpg",
+        "alt_text": "Sophia Johnson working on curly hair styling"
+      }
+    },
+    {
+      "name": "Michael Brown",
+      "description": "Michael is a skilled hair stylist with a focus on men's grooming and barbering. He specializes in classic cuts and beard shaping, catering to a diverse clientele.",
+      "location": "London, UK",
+      "skills": ["Men's Grooming", "Barbering", "Beard Trimming"],
+      "image": {
+        "url": "https://example.com/michael-brown-hairstylist.jpg",
+        "alt_text": "Michael Brown performing barbering services"
+      }
+    },
+    {
+      "name": "Isabella Garcia",
+      "description": "Isabella is a versatile hair stylist known for her expertise in color corrections and creative hair coloring techniques. She enjoys transforming her clients' looks with vibrant colors.",
+      "location": "Miami, FL",
+      "skills": ["Hair Coloring", "Color Corrections", "Balayage"],
+      "image": {
+        "url": "https://example.com/isabella-garcia-hairstylist.jpg",
+        "alt_text": "Isabella Garcia demonstrating hair coloring technique"
+      }
+    },
+    {
+      "name": "Lucas Nguyen",
+      "description": "Lucas is a passionate hair stylist specializing in hair extensions and voluminous styles. He offers personalized hair extension services and enjoys creating glamorous looks for events.",
+      "location": "Sydney, Australia",
+      "skills": ["Hair Extensions", "Voluminous Styles", "Event Hairstyling"],
+      "image": {
+        "url": "https://example.com/lucas-nguyen-hairstylist.jpg",
+        "alt_text": "Lucas Nguyen showcasing hair extension techniques"
+      }
+    },
+    {
+      "name": "Olivia Martinez",
+      "description": "Olivia is an experienced bridal hair stylist known for her intricate updos and elegant bridal hairstyles. She specializes in creating timeless looks for weddings and special occasions.",
+      "location": "Toronto, Canada",
+      "skills": ["Bridal Hairstyling", "Updos", "Vintage Hairstyles"],
+      "image": {
+        "url": "https://example.com/olivia-martinez-hairstylist.jpg",
+        "alt_text": "Olivia Martinez creating bridal updo"
+      }
+    },
+    {
+      "name": "David Lee",
+      "description": "David is a talented hair stylist with a background in celebrity styling and red carpet looks. He enjoys creating glamorous hairstyles for high-profile events.",
+      "location": "Los Angeles, CA",
+      "skills": [
+        "Celebrity Styling",
+        "Red Carpet Hairstyling",
+        "Glamorous Updos"
+      ],
+      "image": {
+        "url": "https://example.com/david-lee-hairstylist.jpg",
+        "alt_text": "David Lee styling celebrity hair"
+      }
+    },
+    {
+      "name": "Emma Wilson",
+      "description": "Emma is a creative hair stylist specializing in braiding and creative hairstyling for photo shoots and fashion events. She enjoys experimenting with new trends and techniques.",
+      "location": "London, UK",
+      "skills": ["Braiding", "Creative Hairstyling", "Fashion Hair"],
+      "image": {
+        "url": "https://example.com/emma-wilson-hairstylist.jpg",
+        "alt_text": "Emma Wilson showcasing creative braiding"
+      }
+    },
+    {
+      "name": "Sophie Kim",
+      "description": "Sophie is a skilled hair stylist known for her expertise in men's haircuts and beard grooming. She offers precise and personalized grooming services for her clients.",
+      "location": "Chicago, IL",
+      "skills": ["Men's Haircuts", "Beard Grooming", "Fade Haircuts"],
+      "image": {
+        "url": "https://example.com/sophie-kim-hairstylist.jpg",
+        "alt_text": "Sophie Kim performing men's haircut"
+      }
+    }
+  ],
+  "nails_artost":[
+    {
+        "name": "Sophia Kim",
+        "description": "Sophia is a highly skilled nail artist with a passion for intricate designs and nail art. She specializes in gel and acrylic nails.",
+        "location": "Los Angeles, CA",
+        "skills": ["Gel Nails", "Acrylic Nails", "Nail Art", "Manicure"],
+        "image": "https://example.com/images/sophia_kim.jpg"
+    },
+    {
+        "name": "Emily Johnson",
+        "description": "Emily has over 8 years of experience in the nail industry, known for her creative and personalized nail art designs.",
+        "location": "New York, NY",
+        "skills": ["Nail Art", "Gel Nails", "French Manicure", "Pedicure"],
+        "image": "https://example.com/images/emily_johnson.jpg"
+    },
+    {
+        "name": "Mia Lee",
+        "description": "Mia specializes in natural nail care and elegant, minimalist nail art. She is dedicated to providing the best care for natural nails.",
+        "location": "Chicago, IL",
+        "skills": ["Natural Nail Care", "Minimalist Nail Art", "Manicure", "Pedicure"],
+        "image": "https://example.com/images/mia_lee.jpg"
+    },
+    {
+        "name": "Olivia Brown",
+        "description": "Olivia is known for her bold and colorful nail designs. She loves experimenting with new techniques and trends.",
+        "location": "Miami, FL",
+        "skills": ["Acrylic Nails", "Nail Art", "Gel Nails", "Nail Extensions"],
+        "image": "https://example.com/images/olivia_brown.jpg"
+    },
+    {
+        "name": "Isabella Garcia",
+        "description": "Isabella is an expert in classic and elegant nail designs. She offers a wide range of services including nail extensions and nail art.",
+        "location": "Houston, TX",
+        "skills": ["Nail Extensions", "Classic Nail Designs", "Nail Art", "Gel Nails"],
+        "image": "https://example.com/images/isabella_garcia.jpg"
+    },
+    {
+        "name": "Ava Martinez",
+        "description": "Ava is a professional nail artist with a focus on modern and trendy nail designs. She is also skilled in nail care and treatments.",
+        "location": "San Francisco, CA",
+        "skills": ["Trendy Nail Designs", "Nail Care", "Gel Nails", "Acrylic Nails"],
+        "image": "https://example.com/images/ava_martinez.jpg"
+    },
+    {
+        "name": "Sophia Nguyen",
+        "description": "Sophia has a flair for creating stunning and unique nail art. She specializes in both traditional and contemporary nail styles.",
+        "location": "Seattle, WA",
+        "skills": ["Nail Art", "Traditional Styles", "Contemporary Styles", "Gel Nails"],
+        "image": "https://example.com/images/sophia_nguyen.jpg"
+    },
+    {
+        "name": "Ella White",
+        "description": "Ella is a versatile nail artist who enjoys working with various nail mediums. She is particularly known for her detailed nail art.",
+        "location": "Boston, MA",
+        "skills": ["Detailed Nail Art", "Gel Nails", "Acrylic Nails", "Manicure"],
+        "image": "https://example.com/images/ella_white.jpg"
+    },
+    {
+        "name": "Lily Davis",
+        "description": "Lily brings over a decade of experience in the nail industry. She is an expert in nail extensions and intricate nail art.",
+        "location": "Atlanta, GA",
+        "skills": ["Nail Extensions", "Intricate Nail Art", "Gel Nails", "Pedicure"],
+        "image": "https://example.com/images/lily_davis.jpg"
+    },
+    {
+        "name": "Charlotte Wilson",
+        "description": "Charlotte is a talented nail artist known for her innovative designs and attention to detail. She offers a range of nail services.",
+        "location": "Dallas, TX",
+        "skills": ["Innovative Designs", "Gel Nails", "Acrylic Nails", "Nail Art"],
+        "image": "https://example.com/images/charlotte_wilson.jpg"
+    }
+],
+"Fashion Designers":[
+  {
+      "name": "Alice Thompson",
+      "description": "Alice is an innovative fashion designer known for her avant-garde collections and sustainable fashion practices.",
+      "location": "New York, NY",
+      "skills": ["Avant-Garde Design", "Sustainable Fashion", "Textile Design", "High Fashion"],
+      "image": "https://example.com/images/alice_thompson.jpg"
+  },
+  {
+      "name": "Liam Johnson",
+      "description": "Liam specializes in modern men's wear with a focus on tailored suits and casual chic. His designs combine classic and contemporary styles.",
+      "location": "Los Angeles, CA",
+      "skills": ["Men's Wear", "Tailored Suits", "Casual Chic", "Pattern Making"],
+      "image": "https://example.com/images/liam_johnson.jpg"
+  },
+  {
+      "name": "Emma Martinez",
+      "description": "Emma is a renowned designer in the bridal fashion industry, creating elegant and bespoke wedding dresses.",
+      "location": "Chicago, IL",
+      "skills": ["Bridal Fashion", "Bespoke Dresses", "Embroidery", "Luxury Fabrics"],
+      "image": "https://example.com/images/emma_martinez.jpg"
+  },
+  {
+      "name": "Noah Kim",
+      "description": "Noah's designs are known for their vibrant colors and unique prints. He excels in creating eye-catching casual wear.",
+      "location": "Miami, FL",
+      "skills": ["Casual Wear", "Print Design", "Color Theory", "Streetwear"],
+      "image": "https://example.com/images/noah_kim.jpg"
+  },
+  {
+      "name": "Olivia Brown",
+      "description": "Olivia brings a fresh perspective to evening wear with her glamorous and sophisticated designs. Her pieces are perfect for red carpet events.",
+      "location": "Houston, TX",
+      "skills": ["Evening Wear", "Glamorous Designs", "Red Carpet Fashion", "Draping"],
+      "image": "https://example.com/images/olivia_brown.jpg"
+  },
+  {
+      "name": "Ethan Garcia",
+      "description": "Ethan is a fashion visionary known for his urban and edgy style. His collections often feature bold silhouettes and innovative materials.",
+      "location": "San Francisco, CA",
+      "skills": ["Urban Fashion", "Edgy Style", "Innovative Materials", "Silhouette Design"],
+      "image": "https://example.com/images/ethan_garcia.jpg"
+  },
+  {
+      "name": "Sophia Lee",
+      "description": "Sophia's work is characterized by its minimalist aesthetic and clean lines. She focuses on creating timeless pieces for the modern woman.",
+      "location": "Seattle, WA",
+      "skills": ["Minimalist Design", "Clean Lines", "Timeless Pieces", "Women's Wear"],
+      "image": "https://example.com/images/sophia_lee.jpg"
+  },
+  {
+      "name": "James Davis",
+      "description": "James specializes in luxury streetwear, combining comfort with high-end fashion elements. His designs are popular among young fashion enthusiasts.",
+      "location": "Boston, MA",
+      "skills": ["Luxury Streetwear", "Comfort Fashion", "Youth Fashion", "Trend Forecasting"],
+      "image": "https://example.com/images/james_davis.jpg"
+  },
+  {
+      "name": "Amelia Wilson",
+      "description": "Amelia is an expert in couture fashion, known for her exquisite craftsmanship and attention to detail. Her creations are true works of art.",
+      "location": "Atlanta, GA",
+      "skills": ["Couture Fashion", "Craftsmanship", "Detail-Oriented", "Custom Fittings"],
+      "image": "https://example.com/images/amelia_wilson.jpg"
+  },
+  {
+      "name": "Daniel Nguyen",
+      "description": "Daniel's collections often feature bold and innovative designs that push the boundaries of traditional fashion. He is a master of experimental fashion.",
+      "location": "Dallas, TX",
+      "skills": ["Experimental Fashion", "Innovative Designs", "Non-Traditional Materials", "Concept Development"],
+      "image": "https://example.com/images/daniel_nguyen.jpg"
+  }
+],
+"musician":[
+  {
+      "name": "Liam Smith",
+      "description": "Liam is a talented guitarist and singer-songwriter known for his soulful acoustic performances and lyrical storytelling.",
+      "location": "Nashville, TN",
+      "skills": ["Guitar", "Vocals", "Songwriting", "Acoustic Music"],
+      "image": "https://example.com/images/liam_smith.jpg"
+  },
+  {
+      "name": "Olivia Johnson",
+      "description": "Olivia is a classically trained pianist and composer who blends classical and contemporary styles in her compositions.",
+      "location": "New York, NY",
+      "skills": ["Piano", "Composition", "Classical Music", "Contemporary Music"],
+      "image": "https://example.com/images/olivia_johnson.jpg"
+  },
+  {
+      "name": "Ethan Brown",
+      "description": "Ethan is a versatile drummer and percussionist known for his dynamic performances across various genres, including jazz and rock.",
+      "location": "Los Angeles, CA",
+      "skills": ["Drums", "Percussion", "Jazz", "Rock"],
+      "image": "https://example.com/images/ethan_brown.jpg"
+  },
+  {
+      "name": "Sophia Davis",
+      "description": "Sophia is an accomplished violinist with a passion for both classical and modern music. She often collaborates with other artists for unique projects.",
+      "location": "Chicago, IL",
+      "skills": ["Violin", "Classical Music", "Modern Music", "Collaborations"],
+      "image": "https://example.com/images/sophia_davis.jpg"
+  },
+  {
+      "name": "Noah Garcia",
+      "description": "Noah is a jazz saxophonist renowned for his improvisational skills and deep understanding of jazz theory.",
+      "location": "New Orleans, LA",
+      "skills": ["Saxophone", "Jazz", "Improvisation", "Music Theory"],
+      "image": "https://example.com/images/noah_garcia.jpg"
+  },
+  {
+      "name": "Emma Martinez",
+      "description": "Emma is a pop singer and songwriter known for her catchy melodies and powerful vocal performances.",
+      "location": "Miami, FL",
+      "skills": ["Vocals", "Songwriting", "Pop Music", "Performance"],
+      "image": "https://example.com/images/emma_martinez.jpg"
+  },
+  {
+      "name": "James Lee",
+      "description": "James is a bassist and music producer with extensive experience in recording and live performances. He works across multiple genres.",
+      "location": "Austin, TX",
+      "skills": ["Bass Guitar", "Music Production", "Recording", "Live Performance"],
+      "image": "https://example.com/images/james_lee.jpg"
+  },
+  {
+      "name": "Isabella Wilson",
+      "description": "Isabella is a multi-instrumentalist and folk singer who brings a unique blend of traditional and contemporary folk music.",
+      "location": "Portland, OR",
+      "skills": ["Vocals", "Guitar", "Banjo", "Folk Music"],
+      "image": "https://example.com/images/isabella_wilson.jpg"
+  },
+  {
+      "name": "Mason Clark",
+      "description": "Mason is an electronic music producer and DJ known for his innovative soundscapes and energetic live sets.",
+      "location": "San Francisco, CA",
+      "skills": ["Music Production", "DJing", "Electronic Music", "Sound Design"],
+      "image": "https://example.com/images/mason_clark.jpg"
+  },
+  {
+      "name": "Ava Rodriguez",
+      "description": "Ava is a versatile singer and pianist with a rich background in both jazz and contemporary music. She is known for her emotive performances.",
+      "location": "Boston, MA",
+      "skills": ["Vocals", "Piano", "Jazz", "Contemporary Music"],
+      "image": "https://example.com/images/ava_rodriguez.jpg"
+  }
+],
+"writers":[
+  {
+      "name": "Emma Thompson",
+      "description": "Emma is an accomplished novelist known for her captivating fiction and complex character development.",
+      "location": "New York, NY",
+      "skills": ["Fiction Writing", "Character Development", "Storytelling", "Editing"],
+      "image": "https://example.com/images/emma_thompson.jpg"
+  },
+  {
+      "name": "Liam Johnson",
+      "description": "Liam is a versatile journalist with a background in investigative reporting and feature writing.",
+      "location": "Los Angeles, CA",
+      "skills": ["Investigative Reporting", "Feature Writing", "Journalism", "Research"],
+      "image": "https://example.com/images/liam_johnson.jpg"
+  },
+  {
+      "name": "Sophia Martinez",
+      "description": "Sophia is a poet whose work explores themes of identity, culture, and the human experience.",
+      "location": "Miami, FL",
+      "skills": ["Poetry", "Creative Writing", "Cultural Commentary", "Public Speaking"],
+      "image": "https://example.com/images/sophia_martinez.jpg"
+  },
+  {
+      "name": "Ethan Brown",
+      "description": "Ethan is a science fiction author known for his imaginative worlds and thought-provoking narratives.",
+      "location": "San Francisco, CA",
+      "skills": ["Science Fiction", "World-Building", "Narrative Structure", "Plot Development"],
+      "image": "https://example.com/images/ethan_brown.jpg"
+  },
+  {
+      "name": "Olivia Davis",
+      "description": "Olivia is a freelance writer specializing in travel and lifestyle articles, offering engaging and informative content.",
+      "location": "Chicago, IL",
+      "skills": ["Travel Writing", "Lifestyle Writing", "Content Creation", "SEO Writing"],
+      "image": "https://example.com/images/olivia_davis.jpg"
+  },
+  {
+      "name": "Noah Garcia",
+      "description": "Noah is a historian and non-fiction writer with a focus on American history and biographical works.",
+      "location": "Boston, MA",
+      "skills": ["Non-Fiction Writing", "Historical Research", "Biographies", "Academic Writing"],
+      "image": "https://example.com/images/noah_garcia.jpg"
+  },
+  {
+      "name": "Emma Wilson",
+      "description": "Emma is a screenwriter with a knack for crafting compelling scripts for both film and television.",
+      "location": "Austin, TX",
+      "skills": ["Screenwriting", "Script Development", "Dialogue", "Film and TV"],
+      "image": "https://example.com/images/emma_wilson.jpg"
+  },
+  {
+      "name": "James Lee",
+      "description": "James is a technical writer with extensive experience in creating clear and concise manuals and guides.",
+      "location": "Seattle, WA",
+      "skills": ["Technical Writing", "Manuals", "Guides", "Clear Communication"],
+      "image": "https://example.com/images/james_lee.jpg"
+  },
+  {
+      "name": "Isabella Rodriguez",
+      "description": "Isabella is a children's book author who creates enchanting stories that inspire and educate young readers.",
+      "location": "San Antonio, TX",
+      "skills": ["Children's Books", "Storytelling", "Education", "Illustration Collaboration"],
+      "image": "https://example.com/images/isabella_rodriguez.jpg"
+  },
+  {
+      "name": "Lucas Clark",
+      "description": "Lucas is a freelance writer and blogger known for his insightful articles on technology and innovation.",
+      "location": "Denver, CO",
+      "skills": ["Blogging", "Tech Writing", "Innovation", "Editorial Content"],
+      "image": "https://example.com/images/lucas_clark.jpg"
+  }
+],
+"painter":[
+  {
+      "name": "Emma Thompson",
+      "description": "Emma is a contemporary painter known for her abstract art and vibrant use of color.",
+      "location": "New York, NY",
+      "skills": ["Abstract Art", "Color Theory", "Mixed Media", "Canvas Painting"],
+      "image": "https://example.com/images/emma_thompson.jpg"
+  },
+  {
+      "name": "Liam Johnson",
+      "description": "Liam is a landscape painter whose work captures the beauty of natural scenery with remarkable detail.",
+      "location": "Los Angeles, CA",
+      "skills": ["Landscape Painting", "Detail Work", "Oil Painting", "Plein Air Painting"],
+      "image": "https://example.com/images/liam_johnson.jpg"
+  },
+  {
+      "name": "Sophia Martinez",
+      "description": "Sophia is a muralist who transforms urban spaces with her large-scale, community-focused murals.",
+      "location": "Miami, FL",
+      "skills": ["Murals", "Community Art", "Public Art", "Spray Painting"],
+      "image": "https://example.com/images/sophia_martinez.jpg"
+  },
+  {
+      "name": "Ethan Brown",
+      "description": "Ethan is a portrait artist known for his lifelike portraits and exceptional ability to capture human emotion.",
+      "location": "San Francisco, CA",
+      "skills": ["Portrait Painting", "Realism", "Charcoal Drawing", "Commissioned Art"],
+      "image": "https://example.com/images/ethan_brown.jpg"
+  },
+  {
+      "name": "Olivia Davis",
+      "description": "Olivia is a watercolor artist whose delicate and detailed works often feature floral and botanical themes.",
+      "location": "Chicago, IL",
+      "skills": ["Watercolor", "Botanical Art", "Floral Painting", "Illustration"],
+      "image": "https://example.com/images/olivia_davis.jpg"
+  },
+  {
+      "name": "Noah Garcia",
+      "description": "Noah is a surrealist painter known for his imaginative and dream-like compositions.",
+      "location": "Boston, MA",
+      "skills": ["Surrealism", "Imaginative Art", "Acrylic Painting", "Concept Art"],
+      "image": "https://example.com/images/noah_garcia.jpg"
+  },
+  {
+      "name": "Emma Wilson",
+      "description": "Emma is an impressionist painter who captures the essence of her subjects with loose brushwork and vibrant colors.",
+      "location": "Austin, TX",
+      "skills": ["Impressionism", "Brushwork", "Color Harmony", "Landscape Painting"],
+      "image": "https://example.com/images/emma_wilson.jpg"
+  },
+  {
+      "name": "James Lee",
+      "description": "James is an abstract painter who explores form and texture in his dynamic and expressive works.",
+      "location": "Seattle, WA",
+      "skills": ["Abstract Art", "Texture", "Mixed Media", "Contemporary Art"],
+      "image": "https://example.com/images/james_lee.jpg"
+  },
+  {
+      "name": "Isabella Rodriguez",
+      "description": "Isabella is a folk art painter who celebrates cultural heritage through her colorful and narrative-rich paintings.",
+      "location": "San Antonio, TX",
+      "skills": ["Folk Art", "Narrative Art", "Cultural Heritage", "Acrylic Painting"],
+      "image": "https://example.com/images/isabella_rodriguez.jpg"
+  },
+  {
+      "name": "Lucas Clark",
+      "description": "Lucas is a mixed media artist whose innovative use of materials creates thought-provoking and textured pieces.",
+      "location": "Denver, CO",
+      "skills": ["Mixed Media", "Innovative Materials", "Textured Art", "Contemporary Art"],
+      "image": "https://example.com/images/lucas_clark.jpg"
+  }
+]
+
+
+
+
+}

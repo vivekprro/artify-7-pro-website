@@ -1,0 +1,43 @@
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card{
+    width: 225px;
+    height: 146px;
+    border-radius: 10px;
+    /* width: 550px; */
+    margin: 0px 15px;
+    border: none;
+    position: relative;
+
+}
+.card img{
+    border-radius: 10px;
+}
+.card .card-layer{
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3));
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.card .card-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffff;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-weight: 700;
+}
+.gallery-card{
+    height: 220px;
+}
+.slider-heading{
+    
+}

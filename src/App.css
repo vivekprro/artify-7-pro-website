@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+:root{
+    --background-light: #fffcf8;
+    --backgorund-dark:#6A5132;
+    --text-light:#F8F2E4;
+    --text-dark:#C49B85;
+
+}
+body{
+    background-color:  var(--background-light);
+}
+.navbar{
+    /* background: transparent; */
+    /* background-color: var(--text-light); */
+    /* box-shadow: 0px 10px 10px rgb(235, 235, 235); */
+}
+.logo img{
+    max-height: 70px;
+    max-width: 250px;
+    /* border: 1px solid black; */
+}
+nav{
+   background-color:  var(--background-light);
+   
+   /* border: 1px solid black; */
+}
+
+/* home hero searh section */
+.search-section {
+    /* background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(240, 240, 240) 0%, rgba(245,245,245,1) 40%); */
+}
+
+/* fooetr style */
+footer{
+    background-color: #121212;
+    color: #ffff;
+    padding-block:35px ;
+    /* height: 200px; */
+}
+footer .footer-social{
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+
+}
+.footer-logo span{
+    color: #fff;
+    font-size:40px !important;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+}
+.footer-social ul li{
+    height: 2rem;
+    width: 2rem;
+    margin-right: .75rem;
+    margin-bottom: .75rem;
+}
+.footer-heading{
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+   
+}
+.footer-content ul li{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(119,119,119);
+    padding: .2rem 0rem;
+    
+}
+.sub-footer-des{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,8 @@
+.whatsapp-wrappper{
+    position: fixed;
+    height:60px;
+    width: 60px;
+    right: 50px;
+    bottom: 60px;
+    z-index: 99;
+}

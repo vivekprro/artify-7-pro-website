@@ -1,0 +1,12 @@
+.navbar-brand{
+/* max-width:100px ; */
+}
+
+
+.navbar{
+   background: #fff;
+/* background: url('/images/home-video.mp4'); */
+}
+.btn-border{
+border: 1px solid #6A5132;
+}

@@ -1,0 +1,30 @@
+.border{
+border: 1px solid black;
+}
+/* section */
+.section{
+    /* height: 100vh; */
+    /* background-color: gray; */
+}
+h1{
+    /* font-size: 5rem!important; */
+}
+a{
+    text-decoration: none;
+    
+}
+
+.dark{
+/* background-color: rgb(144, 143, 143); */
+}
+.navbar{
+}
+ul{
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+.section{
+    /* padding-block: 90px; */
+}

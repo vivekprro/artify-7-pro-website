@@ -1,0 +1,89 @@
+
+.cover-section{
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+}
+/* profile sidebar */
+.profile-sidebar{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    /* display: none; */
+}
+
+.profile-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.profile-image img{
+ 
+    border-radius: 50%;
+}
+
+.ask-expert{
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+
+/* ask form */
+
+
+
+.work-tabs{
+    background-color: rgb(232, 232, 232);
+}
+.profile-project-area{
+    display: flex;
+    justify-content: flex-end;
+}
+.work-tab{
+    background:#fff;
+   font-size: 1rem;
+   color: blue;
+   border: 2px solid blue;
+
+}
+.profile-projetcs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: gray; */
+    width: 60%;
+}
+.profile-project-contaianer{
+   
+    width: 30%;
+    /* height: 20%; */
+    max-height: 250px;
+}
+.profile-project-wrapper{
+    display: flex;
+    gap: 20px;
+}
+.profile-project-contaianer img{
+    height: 150px;
+    /* height: 100%; */
+    /* object-fit: cover; */
+}
+
+.create-project{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100px;
+    padding-block: 20px;
+
+    /* padding: 20px; */
+}
+
+
+/* ask form */
+.ask-form{
+   
+}
