@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
+import "./Signup.css"
+import Footer from "../Footer";
+
 
 const Signup = () => {
   // const history = useNavigate();
@@ -51,9 +54,12 @@ const Signup = () => {
 
   return (
     <>
-      <div className="container ">
+    <video autoPlay loop id="myVideo">
+        <source src="./images/home-video.mp4" type="video/mp4" />
+      </video>
+      <div className="container signup ">
         <div className="row border w-25 mx-auto my-5">
-          <div className="col ">
+          <div className="col " style={{background:"white"}}>
             <form
               className="px-4 py-2"
               // action="POST"
@@ -183,6 +189,7 @@ const Signup = () => {
           </div>
         </div>
       </div>
+      {/* <Footer/> */}
     </>
   );
 };

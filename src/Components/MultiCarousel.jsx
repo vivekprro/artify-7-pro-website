@@ -27,7 +27,11 @@ const MultiCarousel = () => {
   return (
     <Carousel responsive={responsive}>
       {/* <a href="/artist" target="_blank" rel="noopener noreferrer"> */}
-      <Link to="/artist">
+
+      
+
+
+      <Link to="/makeup">
       <div
         className="card"
         //  style={{ width: "400px", height: "250px" }}
@@ -35,13 +39,13 @@ const MultiCarousel = () => {
       
         <img
           className="product-image"
-          src="images/dance.png"
+          src="images/makeup.jpg"
           alt="dance"
           srcSet=""
         />
        
         <div className="card-layer"></div>
-        <div className="card-text">Dance</div>
+        <div className="card-text">Makeup</div>
         {/* <h2>dancing</h2> */}
         {/* <p className="price">$20.99</p> */}
         {/* <p>some description about product</p> */}
@@ -51,7 +55,28 @@ const MultiCarousel = () => {
       </div>
       {/* </a> */}
       </Link>
-      <a href="/artist" target="_blank" rel="noopener noreferrer">
+      <Link to="/hairstyle"  rel="noopener noreferrer">
+      <div
+        className="card"
+        //  style={{ width: "400px", height: "250px" }}
+      >
+        <img
+          className="product-image"
+          src="images/hair-style.jpg"
+          alt="dance"
+          srcSet=""
+        />
+        <div className="card-layer"></div>
+        <div className="card-text">Hairstyle</div>
+        {/* <h2>dancing</h2> */}
+        {/* <p className="price">$20.99</p> */}
+        {/* <p>some description about product</p> */}
+        {/* <p>
+          <button>add to cart</button>
+        </p> */}
+      </div>
+      </Link>
+      <Link to="/nailart"  rel="noopener noreferrer">
 
       <div
         className="card"
@@ -72,21 +97,24 @@ const MultiCarousel = () => {
           <button>add to cart</button>
         </p> */}
       </div>
-      </a>
+      </Link>
 
-      <a href="/artist" target="_blank" rel="noopener noreferrer">
+      
+
+
+<Link to="/henna"  rel="noopener noreferrer">
       <div
         className="card"
         //  style={{ width: "400px", height: "250px" }}
       >
         <img
           className="product-image"
-          src="images/hair-style.jpg"
+          src="images/henna.jpeg"
           alt="dance"
           srcSet=""
         />
         <div className="card-layer"></div>
-        <div className="card-text">Hairstyle</div>
+        <div className="card-text">Henna</div>
         {/* <h2>dancing</h2> */}
         {/* <p className="price">$20.99</p> */}
         {/* <p>some description about product</p> */}
@@ -94,18 +122,62 @@ const MultiCarousel = () => {
           <button>add to cart</button>
         </p> */}
       </div>
-      </a>
+
+</Link>
 
 
-
-<a href="/artist" target="_blank" rel="noopener noreferrer">
+<Link to="/fashion"  rel="noopener noreferrer">
       <div
         className="card"
         //  style={{ width: "400px", height: "250px" }}
       >
         <img
           className="product-image"
-          src="images/music.jpg"
+          src="images/fashion.jpg"
+          alt="dance"
+          srcSet=""
+        />
+        <div className="card-layer"></div>
+        <div className="card-text">Fashion Designer</div>
+        {/* <h2>dancing</h2> */}
+        {/* <p className="price">$20.99</p> */}
+        {/* <p>some description about product</p> */}
+        {/* <p>
+          <button>add to cart</button>
+        </p> */}
+      </div>
+      </Link>
+      <Link to="/dance"  rel="noopener noreferrer">
+      <div
+        className="card"
+        //  style={{ width: "400px", height: "250px" }}
+      >
+        <img
+          className="product-image"
+          src="images/dance.png"
+          alt="dance"
+          srcSet=""
+        />
+        <div className="card-layer"></div>
+        <div className="card-text">Dancer</div>
+        {/* <h2>dancing</h2> */}
+        {/* <p className="price">$20.99</p> */}
+        {/* <p>some description about product</p> */}
+        {/* <p>
+          <button>add to cart</button>
+        </p> */}
+      </div>
+
+      </Link>
+
+      <Link to="/music"  rel="noopener noreferrer">
+      <div
+        className="card"
+        //  style={{ width: "400px", height: "250px" }}
+      >
+        <img
+          className="product-image"
+          src="/images/music.jpg"
           alt="dance"
           srcSet=""
         />
@@ -118,11 +190,9 @@ const MultiCarousel = () => {
           <button>add to cart</button>
         </p> */}
       </div>
+      </Link>
 
-</a>
-
-
-<a href="/artist" target="_blank" rel="noopener noreferrer">
+      <Link to="/paint"  rel="noopener noreferrer">
       <div
         className="card"
         //  style={{ width: "400px", height: "250px" }}
@@ -142,8 +212,9 @@ const MultiCarousel = () => {
           <button>add to cart</button>
         </p> */}
       </div>
-      </a>
-      <a href="/artist" target="_blank" rel="noopener noreferrer">
+      </Link>
+
+      <Link to="/writer"  rel="noopener noreferrer">
       <div
         className="card"
         //  style={{ width: "400px", height: "250px" }}
@@ -155,7 +226,7 @@ const MultiCarousel = () => {
           srcSet=""
         />
         <div className="card-layer"></div>
-        <div className="card-text">Writing</div>
+        <div className="card-text">Writer</div>
         {/* <h2>dancing</h2> */}
         {/* <p className="price">$20.99</p> */}
         {/* <p>some description about product</p> */}
@@ -163,32 +234,9 @@ const MultiCarousel = () => {
           <button>add to cart</button>
         </p> */}
       </div>
+      </Link>
 
-      </a>
-
-      <a href="/artist" target="_blank" rel="noopener noreferrer">
-      <div
-        className="card"
-        //  style={{ width: "400px", height: "250px" }}
-      >
-        <img
-          className="product-image"
-          src="images/fashion.jpg"
-          alt="dance"
-          srcSet=""
-        />
-        <div className="card-layer"></div>
-        <div className="card-text">Fashion</div>
-        {/* <h2>dancing</h2> */}
-        {/* <p className="price">$20.99</p> */}
-        {/* <p>some description about product</p> */}
-        {/* <p>
-          <button>add to cart</button>
-        </p> */}
-      </div>
-      </a>
-
-      <a href="/artist" target="_blank" rel="noopener noreferrer">
+      <Link to="/teacher"  rel="noopener noreferrer">
       <div
         className="card"
         //  style={{ width: "400px", height: "250px" }}
@@ -200,7 +248,7 @@ const MultiCarousel = () => {
           srcSet=""
         />
         <div className="card-layer"></div>
-        <div className="card-text">Teaching</div>
+        <div className="card-text">Special Teachers</div>
         {/* <h2>dancing</h2> */}
         {/* <p className="price">$20.99</p> */}
         {/* <p>some description about product</p> */}
@@ -208,29 +256,7 @@ const MultiCarousel = () => {
           <button>add to cart</button>
         </p> */}
       </div>
-      </a>
-
-      <a href="/artist" target="_blank" rel="noopener noreferrer">
-      <div
-        className="card"
-        //  style={{ width: "400px", height: "250px" }}
-      >
-        <img
-          className="product-image"
-          src="images/lifestyle.jpg"
-          alt="dance"
-          srcSet=""
-        />
-        <div className="card-layer"></div>
-        <div className="card-text">Life Style</div>
-        {/* <h2>dancing</h2> */}
-        {/* <p className="price">$20.99</p> */}
-        {/* <p>some description about product</p> */}
-        {/* <p>
-          <button>add to cart</button>
-        </p> */}
-      </div>
-      </a>
+      </Link>
     </Carousel>
   );
 };

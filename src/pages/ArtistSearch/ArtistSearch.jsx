@@ -9,7 +9,11 @@ const ArtistSearch = () => {
   return (
     <>
       {/* <Header /> */}
+
+
       <section className="artist-search">
+     
+      {/* ************ */}
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-3  artist-filter p-5">

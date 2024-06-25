@@ -17,6 +17,7 @@ const Home = () => {
         {/* <div className="text"> */}
         <section
           className="search-section hero section  dark "
+          id="home"
           style={{ height: "", borderBottom: "1px  solid black" }}
         >
           <div className="container hero-container">
@@ -79,14 +80,13 @@ const Home = () => {
             <div className="row">
               <div className="col carousel-content">
                 <h2 className="text-uppercase carousel-title">
-                  Art Forms Collections
+                  Our Portfolio
                 </h2>
                 <h3 className="carosuel-heading">
-                  Extraordinary, in a nutshell
+                Unleash the Creative Storm: Featured Artists Inside
                 </h3>
                 <p className="carousel-desc ">
-                  Get the inspiration you need with our curated collections and
-                  boost your creativity
+                Explore the latest works, trends, and stories from the industry's most innovative minds
                 </p>
                 <p></p>
               </div>
@@ -108,38 +108,36 @@ const Home = () => {
 
         <section
           className="home-page-talent"
+          id="about"
           //  style={{ width: "100%" }}
         >
           <div className="container p-4">
-            <div className="row">
+            <div className="row ">
               <div
-                className="col-md-6 home-talent-left py-5  d-flex justify-content-center align-content-center"
-                style={{ padding: "25px" }}
+                className="col-md-6 home-talent-left  d-flex justify-content-center align-content-center"
+                // style={{ padding: "25px" }}
               >
                 <div className="home-about-img">
-                  <img src="/images/home-about2.jpg" alt="" srcSet="" />
+                  <video muted autoPlay="autoplay" src="/images/home-about-video.mp4" type="video/mp4"></video>
                 </div>
               </div>
               <div className="col-md-6 home-talent-right position-relative">
                 <h3 className=" mb-4 text-uppercase ">About Us</h3>
+                
+            
                 <p
-                  className="margin-top-170"
-                  // style={{ marginTop: "170px" }}
+                  className=""
+                  style={{ marginTop: "230px" }}
                 >
-                  Welcome to Artrio, the premier platform connecting you to a
-                  world of artistic talent. Whether you are looking for a
-                  musician for your event, a painter for a custom piece, or a
-                  digital artist for your next project, we are here to make the
-                  connection seamless and inspiring.
+                  To revolutionize the way artists access opportunities, by providing a professional platform that fosters creativity, collaboration, and success.
                 </p>
+                
                 <p className="">
-                  Artrio was founded on the belief that art should be accessible
-                  and appreciated by all. Our journey began with a simple idea:
-                  to create a space where artists and clients can connect
-                  without the usual barriers. Since our inception, we have grown
-                  into a vibrant community that values innovation, expression,
-                  and the joy that comes from artistic creation.
+                Empowering artists to achieve their vision, we connect creativity with professionalism, providing a dynamic platform, expert consulting, and meaningful collaborations, to transform passions into successful careers.
                 </p>
+                
+                <p className="">
+                Artify 7 Pro was founded on the belief that artists deserve a platform that supports their creative and professional growth. Our team of experts has curated a unique ecosystem that bridges the gap between talent and opportunity </p>
               </div>
             </div>
           </div>
@@ -154,10 +152,10 @@ const Home = () => {
           <div className="container">
             <div className="row ">
               <div className="col text-center">
-                <h3>Designers' faves</h3>
-                <p className="text-center">
-                  Check out what’s getting the most olés on Freepik right now
-                </p>
+                <h3>Featured Artists Of The Week</h3>
+                {/* <p className="text-center">
+                Explore the latest works, trends, and stories from the industry's most innovative minds
+                </p> */}
               </div>
             </div>
             <div className="row my-4" style={{ height: "" }}>

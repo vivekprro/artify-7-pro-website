@@ -24,8 +24,10 @@ function Header() {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         
-        
-        <li class="nav-item dropdown ">
+      <li class="nav-item ms-2">
+          <Link to="/login" class="nav-link btn  btn-primary-dark btn-border" >Login</Link>
+        </li>
+        <li class="nav-item dropdown ms-2">
           {/* <Link to="" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         Login
           </Link>
@@ -35,18 +37,16 @@ function Header() {
             <li><hr class="dropdown-divider"/></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul> */}
-          <Link class="btn btn-primary-dark dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Login
+          <Link to="" class="btn btn-primary-dark dropdown-toggle "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Signup
   </Link>
 
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Login as Artist</a></li>
-    <li><a class="dropdown-item" href="#">Another as User</a></li>
+    <li><Link to="/signupartist" class="dropdown-item" >Signup as Artist</Link></li>
+    <li><Link to="/signup" class="dropdown-item" >Signup as User</Link></li>
   </ul>
         </li>
-        <li class="nav-item ms-2">
-          <Link class="nav-link btn  btn-primary-dark btn-border" href="#">SignUp</Link>
-        </li>
+        
        
       </ul>
     </div>

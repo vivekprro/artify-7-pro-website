@@ -1,3 +1,10 @@
+
+
+.login{
+  height: 100%;
+/* background-image: url("/images/home-video-video.mp4"); */
+}
+
 .btn-login:hover {
     background-color: white !important;
     color: black !important;
@@ -15,3 +22,21 @@
   .Login_heading {
     text-align: center;
   }
+  #myVideo{
+    /* position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%; */
+  }
+  .login{
+    left: 0;
+    position: fixed;
+    /* bottom: 0; */
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    width: 100%;
+    /* padding: 20px; */
+    right: 0;
+  }
+  

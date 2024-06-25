@@ -1,0 +1,14 @@
+.fixed-price{
+    /* border: 1px solid black; */
+   
+    
+  }
+  .fixed-price .fixed-price-input{
+    background-color: #fff;
+    border: 1px solid black;
+  }
+  .fixed-price input{
+    
+    outline: none;
+    border: none;
+  }

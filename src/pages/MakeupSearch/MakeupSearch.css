@@ -1,0 +1,24 @@
+#myVideo{
+    /* position: absolute; */
+    /* right: 0;
+    bottom: 0; */
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    /* top: 0;
+    z-index: -1; */
+  }
+
+  .fixed-price{
+    /* border: 1px solid black; */
+   
+    
+  }
+  .fixed-price .fixed-price-input{
+    background-color: #fff;
+    border: 1px solid black;
+  }
+  .fixed-price input{
+    
+    outline: none;
+    border: none;
+  }

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
+import "./Login.css"
+import Footer from "../Footer";
 
 const Login = () => {
   // const history = useNavigate();
@@ -8,8 +10,6 @@ const Login = () => {
   const [password, setPasssword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
-
-
 
   const navigate = useNavigate();
 
@@ -20,45 +20,50 @@ const Login = () => {
     setErrorMessage(""); // Reset error message
     setSuccessMessage(""); // Reset success message
 
-   
-    axios.post('http://localhost:8081/auth/login', {
-      email,
-      password,
-    }).then((response) => {
-      if (response.data.status) {
-        setSuccessMessage("Login successful! Redirecting to dashboard...");
-        setTimeout(() => {
-          navigate('/profile');
-        }, 2000); // Redirect after 2 seconds
-      }
-    }).catch((err) => {
-      if (err.response && err.response.data.message) {
-        setErrorMessage(err.response.data.message);
-      } else {
-        setErrorMessage("An error has occurred. Please try again.");
-      }
-    });
+    axios
+      .post("http://localhost:8081/auth/login", {
+        email,
+        password,
+      })
+      .then((response) => {
+        if (response.data.status) {
+          setSuccessMessage("Login successful! Redirecting to dashboard...");
+          setTimeout(() => {
+            navigate("/profile");
+          }, 2000); // Redirect after 2 seconds
+        }
+      })
+      .catch((err) => {
+        if (err.response && err.response.data.message) {
+          setErrorMessage(err.response.data.message);
+        } else {
+          setErrorMessage("An error has occurred. Please try again.");
+        }
+      });
   };
 
   return (
     <>
-      <div className="container ">
-        <div className="row border w-25 mx-auto my-5">
-          <div className="col ">
+    <video autoPlay loop id="myVideo">
+        <source src="./images/home-video.mp4" type="video/mp4" />
+      </video>
+      <div className="container login">
+        <div className="row  mx-auto my-auto align-items-center h-100">
+          <div className="col-md-4 m-auto " style={{background:"white"}}>
             <form className="px-4 py-2" action="POST">
               <div className="text-center mb-5">
                 <h2>Login</h2>
               </div>
               {errorMessage && (
-            <div className="alert alert-danger" role="alert">
-              {errorMessage}
-            </div>
-          )}
-          {successMessage && (
-            <div className="alert alert-success" role="alert">
-              {successMessage}
-            </div>
-          )}
+                <div className="alert alert-danger" role="alert">
+                  {errorMessage}
+                </div>
+              )}
+              {successMessage && (
+                <div className="alert alert-success" role="alert">
+                  {successMessage}
+                </div>
+              )}
               <div className="mb-3">
                 <label
                   for="exampleInputEmail1"
@@ -93,7 +98,7 @@ const Login = () => {
                   onChange={(e) => setPasssword(e.target.value)}
                 />
               </div>
-              
+
               <div className="mb-3">
                 <Link to="/artist">
                   <button
@@ -137,6 +142,10 @@ const Login = () => {
           </div>
         </div>
       </div>
+
+      {/* <Footer/> */}
+
+      
     </>
   );
 };
