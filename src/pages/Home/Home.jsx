@@ -1,14 +1,62 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import MultiCarousel from "../../Components/MultiCarousel";
 import "./Home.css";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer";
-import Whatsapp from "../../Components/whatsapp-chat/Whatsapp";
+import Whatsapp from "../../Components/RequestForm/RequestForm";
 import axios from "axios";
+import RequestForm from "../../Components/RequestForm/RequestForm";
+import data from "../../JSON/ArtistData.json"
+import { Link } from "react-router-dom";
+
 
 const Home = () => {
+
+
+  const [input ,setInput] = useState("")
+  const [result ,setResult] = useState()
+  const [url , setUrl] = useState("")
+
+  console.log(input);
+
+  // const jsondata = import ("../../JSON/artistData.json")
+  // useEffect(()=>{
+  //   fetch("../../JSON/artistData.json")
+  //   .then((res)=>res.json())
+  //   .then((data)=>console.log(data))
+  //   .catch((error)=> console.log(error))
+  // })
+// console.log(data);
+  
+const fetchData =(value) =>{
+
+  // const result = data.filter((user)=>{
+  //   return user&&user.category&&user.category.toLowerCase().includes(value)
+  // })
+
+  setResult(
+    data.filter((user)=>{
+      return user&&user.category&&user.category.toLowerCase().includes(value)
+    })
+  )
+
+
+  console.log(result);
+  result.map((one)=>{
+    console.log(one.category);
+    setUrl(one.category)
+  })
+
+}
+
  
+const handleInput = (value) =>{
+  setInput(value)
+  console.log(input);
+  fetchData(value)
+}
+  
 
   return (
     <>
@@ -26,6 +74,7 @@ const Home = () => {
               // style={{ padding: "150px 0px 70px 0px" }}
             >
               <div className="col-md-10 text-center">
+                <form action="">
                 <h1 className="text-light">Find The Talent</h1>
                 {/* <p
                   className=" mb-5 text-dark text-center"
@@ -34,11 +83,12 @@ const Home = () => {
                   Best photographer, video, Editor, Fashion Designer, Painter,
                   Teacher... to go from ideas to outstanding designs
                 </p> */}
+                </form>
               </div>
               <div className="col-md-6  d-flex align-content-center justify-content-center m-auto ">
                 <div
                   className="input-group flex-nowrap"
-                  style={{ border: "1px solid #6B5233", borderRadius: "15px" }}
+                  style={{ border: "1px solid #6B5233", borderRadius: "15px"}}
                 >
                   <span
                     className="input-group-text border-0 bg-light"
@@ -53,19 +103,28 @@ const Home = () => {
 
                   <input
                     type="text"
-                    className="form-control px-4 py-3 border-0"
+                    className="form-control px-4 py-3 border-0 shadow-none"
                     placeholder="Search your creativity"
                     aria-label="Username"
                     aria-describedby="addon-wrapping"
+                    onChange={(e)=> handleInput(e.target.value)}
                   />
-                  <button
+                  {
+
+// result.map((one)=>{
+//     console.log(one.category);
+
+//   })
+}
+                  <Link to={'/'+url}
+
                     className="btn search-btn"
                     type="button"
                     id="button-addon1"
-                    style={{ borderRadius: "15px" }}
+                    style={{ borderRadius: " 0px 15px 15px 0px" }}
                   >
                     Search
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -162,36 +221,36 @@ const Home = () => {
               <div className="col-md-3" style={{ height: "220px" }}>
                 <div className="gallery-card m-0">
                   <img
-                    src="./images/gallery/singing.jpg"
+                    src="./images/gallery/hairs.jpeg"
                     className="card-img-top"
                     alt="..."
                   />
                   <div className="gallery-text">
-                    <p>Experience Music</p>
+                    <p>Hair Style</p>
                   </div>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="gallery-card m-0">
                   <img
-                    src="./images/gallery/dancing.jpg"
+                    src="./images/gallery/gallery.jpeg"
                     className="card-img-top"
                     alt="..."
                   />
                   <div className="gallery-text">
-                    <p>Experience Music</p>
+                    <p>Sheetal Arora</p>
                   </div>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="gallery-card m-0">
                   <img
-                    src="./images/gallery/sketching.jpg"
+                    src="./images/gallery/gallery2.jpeg"
                     className="card-img-top"
                     alt="..."
                   />
                   <div className="gallery-text">
-                    <p>Experience Music</p>
+                    <p>Reet</p>
                   </div>
                 </div>
               </div>
@@ -201,36 +260,36 @@ const Home = () => {
               <div className="col-md-4 " style={{ height: "220px" }}>
                 <div className="gallery-card m-0">
                   <img
-                    src="./images/gallery/literature.jpg"
+                    src="./images/gallery/makeup.jpeg"
                     className="card-img-top"
                     alt="..."
                   />
                   <div className="gallery-text">
-                    <p>Experience Music</p>
+                    <p>Makeup</p>
                   </div>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="gallery-card m-0">
                   <img
-                    src="./images/gallery/photogaphy.jpg"
+                    src="./images/gallery/nails.jpeg"
                     className="card-img-top"
                     alt="..."
                   />
                   <div className="gallery-text">
-                    <p>Experience Music</p>
+                    <p>Nails</p>
                   </div>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="gallery-card m-0">
                   <img
-                    src="./images/gallery/swimming.jpg"
+                    src="./images/gallery/gallery3.jpeg"
                     className="card-img-top"
                     alt="..."
                   />
                   <div className="gallery-text">
-                    <p>Experience Music</p>
+                    <p>Jannat</p>
                   </div>
                 </div>
               </div>
@@ -239,36 +298,36 @@ const Home = () => {
               <div className="col-md-6">
                 <div className="gallery-card m-0">
                   <img
-                    src="./images/gallery/theater.jpg"
+                    src="./images/gallery/gallery4.jpeg"
                     className="card-img-top"
                     alt="..."
                   />
                   <div className="gallery-text">
-                    <p>Experience Music</p>
+                    <p>Sheetal GIll</p>
                   </div>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="gallery-card m-0">
                   <img
-                    src="./images/gallery/writing.jpg"
+                    src="./images/gallery/gallery4.jpeg"
                     className="card-img-top"
                     alt="..."
                   />
                   <div className="gallery-text">
-                    <p>Experience Music</p>
+                    <p>Sheetal GIll</p>
                   </div>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="gallery-card m-0">
                   <img
-                    src="./images/gallery/fashion.jpg"
+                    src="./images/gallery/gallery.jpeg"
                     className="gallery-card-img-top"
                     alt="..."
                   />
                   <div className="gallery-text">
-                    <p>Experience Music</p>
+                    <p>Sheetal Arora</p>
                   </div>
                 </div>
               </div>
@@ -277,7 +336,8 @@ const Home = () => {
         </section>
         <Footer />
       </div>
-      <Whatsapp />
+      {/* <RequestForm/> */}
+      <RequestForm />
       {/* </div> */}
     </>
   );

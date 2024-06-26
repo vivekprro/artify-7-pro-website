@@ -1,5 +1,5 @@
 import React from "react";
-import "./Profile.css";
+import "./SheetalProfile.css";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoMailSharp } from "react-icons/io5";
 import { IoIosCall } from "react-icons/io";
@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 
 
-const Profile = () => {
+const SheetalProfile = () => {
  
   return (
     <>
@@ -19,7 +19,7 @@ const Profile = () => {
           <div className="row">
             <div className="col">
               <div className="cover-section">
-                <img src="./images/profile-cover.jpg" alt="" />
+                <img src="./images/artist-profile/sheetal-cover.jpeg" alt="" />
               </div>
             </div>
           </div>
@@ -33,13 +33,13 @@ const Profile = () => {
                 backgroundColor: "rgb(232, 232, 232)",
               }}
             >
-              <div className="profile-sidebar-wrapper">
-                <div className="profile-image">
-                  <img src="./images/profile.jpg" alt="" srcset="" />
+              <div className="profile-sidebar-wrapper text-center">
+                <div className="profile-image mx-auto">
+                  <img src="./images/artist-profile/sheetal-arora.jpeg" alt="" srcset="" />
                 </div>
-                <span>megnath chapri</span>
+                <span>Sheetal Arora</span>
                 <br />
-                <span>Bad Graphic Designer</span>
+                <span>Makeup Artist</span>
 
                 <div className="location">
                   <div class="input-group mb-3">
@@ -50,9 +50,16 @@ const Profile = () => {
                       type="text"
                       class="form-control"
                       placeholder="Username"
-                      aria-label="Username"
+                      aria-label="Location"
                       aria-describedby="basic-addon1"
+                      value="swis city , amritsar, India "
                     />
+                    {/* <div class="form-control"
+                      placeholder="Username"
+                      aria-label="Location"
+                      aria-describedby="basic-addon1">
+                         Amritsar, India
+                      </div> */}
                   </div>
                 </div>
                 <div className="location">
@@ -63,7 +70,7 @@ const Profile = () => {
                     <input
                       type="text"
                       class="form-control"
-                      placeholder="Username"
+                      placeholder="Email"
                       aria-label="Username"
                       aria-describedby="basic-addon1"
                     />
@@ -79,7 +86,7 @@ const Profile = () => {
                       type="text"
                       class="form-control"
                       placeholder="Username"
-                      aria-label="Username"
+                      aria-label="contactus"
                       aria-describedby="basic-addon1"
                     />
                   </div>
@@ -93,7 +100,7 @@ const Profile = () => {
                     <a href="" target="_blank" rel="noopener noreferrer" className="fw-semibold me-4" style={{color:"blue"}}>Add</a>
                   </div>
                 </div>
-                <div className="location">
+                {/* <div className="location">
                   <div class="input-group mb-3 form-control d-flex justify-content-between "            
                    aria-label="Username"
                    aria-describedby="basic-addon1">
@@ -119,7 +126,7 @@ const Profile = () => {
                     <span>Education</span>
                     <a href="" target="_blank" rel="noopener noreferrer" className="fw-semibold me-4" style={{color:"blue"}}>Add</a>
                   </div>
-                </div>
+                </div> */}
                 <div className="location">
                   <div class="input-group mb-3 form-control d-flex justify-content-between "            
                    aria-label="Username"
@@ -247,4 +254,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default SheetalProfile;

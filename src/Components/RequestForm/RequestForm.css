@@ -1,0 +1,19 @@
+.whatsapp-wrappper{
+    background-color: #fff;
+    position: fixed;
+    height:100px;
+    width: 250px;
+    right: 2px;
+    /* bottom: 230px; */
+    z-index: 999;
+}
+.whatsapp-wrappper{
+animation-timing-function: ease-in;
+}
+.request-top{
+    background-color: #6B5233;
+    color: #fff;
+}
+.request-form{
+    background: #fff;
+}

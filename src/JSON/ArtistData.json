@@ -1,0 +1,31 @@
+ [
+
+{
+    "id":0,
+    "category":"makeup",
+    "sub-category":{
+        "0":"party-makeup",
+        "1":"airbrush-makeup",
+        "2":"Fashion",
+        "3":"editorial make",
+        "4":"Theatre makeup",
+        "5":"performance makeup"
+    }
+   
+},
+
+{
+    "id":1,
+    "category":"hairstyle",
+    "sub-category":{
+        "0":"party-makeup",
+        "1":"airbrush-makeup",
+        "2":"Fashion",
+        "3":"editorial make",
+        "4":"Theatre makeup",
+        "5":"performance makeup"
+    }
+   
+}
+
+]

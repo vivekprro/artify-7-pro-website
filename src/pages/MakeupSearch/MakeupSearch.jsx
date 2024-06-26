@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 // import "./ArtistSearch.css";
 import { MdLocationPin } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
@@ -9,6 +9,8 @@ import { Link } from "react-router-dom";
 // import "./MakeupSearch.css"
 import FixedPrice from "../../Components/FilterPrices/FixedPrice";
 import Bgvideo from "../../Components/Bgvideo/Bgvideo";
+import AskForm from "../../Components/AskForm/AskForm";
+import ProfileConnectBtn from "../../Components/ProfileConnectBtn/ProfileConnectBtn";
 
 const MakeupSearch = () => {
 
@@ -147,6 +149,10 @@ const MakeupSearch = () => {
                 </div>*/}
 
                   <FixedPrice/>
+
+                  <ProfileConnectBtn/>
+
+                  {/* <AskForm/> */}
                 {/* fixed price */}
                 {/* <div className="filter-header  d-flex justify-content-between align-items-end mb-3 mt-4">
                   <span className="d-inline-block fs-5 fw-bolder">
@@ -201,27 +207,30 @@ const MakeupSearch = () => {
 
             {/* artist search-result */}
             <div className="col-md-8 border p-5">
-              <Link to="/profile" >
+              <Link to="/sheetal" >
              
               <div class="card mb-3 border" style={{ maxWidth: "100%" }}>
                 <div class="row g-0">
                   <div class="col-md-3">
+                    <div className="artist-profile">
                     <img
-                      src="/images/artist-profile/profile.jpeg"
+                      src="/images/artist-profile/sheetal-arora.jpeg"
                       class="img-fluid rounded-start"
                       alt="..."
                     />
+                    </div>
+                    
                   </div>
                   <div class="col-md-9">
                     <div class="card-body">
-                      <h5 class="card-title">Himanshu Rawat</h5>
+                      <h5 class="card-title">Sheetal Arora</h5>
                       <p class="">
                         I am Experienced Website Designer & Developer. I
                         Specialized in Front-end and Back-end technology.
                       </p>
                       <div className="artist-location">
                         <MdLocationPin size={25} />
-                        <span style={{ marginLeft: "10px" }}>India</span>
+                        <span style={{ marginLeft: "10px" }}>Amritsar, India</span>
                       </div>
                       <p class="card-text">
                         {/* <small class="text-body-secondary">
@@ -230,10 +239,9 @@ const MakeupSearch = () => {
                       </p>
                       <div className="artist-skills">
                         <ul>
-                          <li>javascript</li>
-                          <li>ReactJS</li>
-                          <li>NodeJs</li>
-                          <li>MongoDb</li>
+                          <li>Make Up</li>
+                          <li>Hair Do’s</li>
+                          <li>Shoot Makeup</li>
                         </ul>
                       </div>
                     </div>
@@ -247,17 +255,17 @@ const MakeupSearch = () => {
                 <div class="row g-0">
                   <div class="col-md-3 image-box">
                     <img
-                      src="/images/artist-profile/profile2.jpg"
+                      src="/images/artist-profile/seerat.jpeg"
                       class="img-fluid rounded-start"
                       alt="..."
                     />
                   </div>
                   <div class="col-md-9">
                     <div class="card-body">
-                      <h5 class="card-title">Himanshu Rawat</h5>
+                      <h5 class="card-title">Seerat Gill</h5>
                       <p class="">
-                        I am Experienced Website Designer & Developer. I
-                        Specialized in Front-end and Back-end technology.
+                        {/* I am Experienced Website Designer & Developer. I
+                        Specialized in Front-end and Back-end technology. */}
                       </p>
                       <div className="artist-location">
                         <MdLocationPin size={25} />
@@ -270,9 +278,9 @@ const MakeupSearch = () => {
                       </p>
                       <div className="artist-skills">
                         <ul>
-                          <li>javascript</li>
-                          <li>ReactJS</li>
-                          <li>NodeJs</li>
+                          <li>Facials </li>
+                          <li>Makeups</li>
+                          <li>Hairdos</li>
                           <li>MongoDb</li>
                         </ul>
                       </div>
@@ -283,7 +291,7 @@ const MakeupSearch = () => {
               </Link>
 
 
-              <Link to="/profile" >
+              {/* <Link to="/profile" >
               <div class="card mb-3 border" style={{ maxWidth: "100%" }}>
                 <div class="row g-0">
                   <div class="col-md-3">
@@ -305,9 +313,7 @@ const MakeupSearch = () => {
                         <span style={{ marginLeft: "10px" }}>India</span>
                       </div>
                       <p class="card-text">
-                        {/* <small class="text-body-secondary">
-                          Last updated 3 mins ago
-                        </small> */}
+                       
                       </p>
                       <div className="artist-skills">
                         <ul>
@@ -321,7 +327,7 @@ const MakeupSearch = () => {
                   </div>
                 </div>
               </div>
-              </Link>
+              </Link> */}
 
             </div>
           </div>

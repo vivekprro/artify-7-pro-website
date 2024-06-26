@@ -182,13 +182,13 @@ const SignUpArtist = () => {
 
              
             </form>
-            <div className="mb-3">
+            {/* <div className="mb-3">
               <Link to="/login">
                 <button type="button " className="btn btn-secondary w-100 ">
                   login ?
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -146,21 +146,21 @@ const HairStyle = () => {
                 <div class="row g-0">
                   <div class="col-md-3">
                     <img
-                      src="/images/artist-profile/profile.jpeg"
+                      src="/images/artist-profile/reet.jpeg"
                       class="img-fluid rounded-start"
                       alt="..."
                     />
                   </div>
                   <div class="col-md-9">
                     <div class="card-body">
-                      <h5 class="card-title">Himanshu Rawat</h5>
+                      <h5 class="card-title">Reet</h5>
                       <p class="">
-                        I am Experienced Website Designer & Developer. I
-                        Specialized in Front-end and Back-end technology.
+                      leading a professional role of 20+ years in makeup , hair and beauty 
+                      I also provide practical and theoretical knowledge to the interested candidates who want to enhance their makeup/ hair do skills.
                       </p>
                       <div className="artist-location">
                         <MdLocationPin size={25} />
-                        <span style={{ marginLeft: "10px" }}>India</span>
+                        <span style={{ marginLeft: "10px" }}>Canada</span>
                       </div>
                       <p class="card-text">
                         {/* <small class="text-body-secondary">
@@ -169,10 +169,10 @@ const HairStyle = () => {
                       </p>
                       <div className="artist-skills">
                         <ul>
-                          <li>javascript</li>
-                          <li>ReactJS</li>
-                          <li>NodeJs</li>
-                          <li>MongoDb</li>
+                          <li>Bridal / Non Bridal Make Up</li>
+                          <li>Celebrity Shoots</li>
+                          <li>Beauty</li>
+                          <li>Cosmetic and Personal Care</li>
                         </ul>
                       </div>
                     </div>
@@ -186,21 +186,21 @@ const HairStyle = () => {
                 <div class="row g-0">
                   <div class="col-md-3 image-box">
                     <img
-                      src="/images/artist-profile/profile2.jpg"
+                      src="/images/artist-profile/jannat.jpeg"
                       class="img-fluid rounded-start"
                       alt="..."
                     />
                   </div>
                   <div class="col-md-9">
                     <div class="card-body">
-                      <h5 class="card-title">Himanshu Rawat</h5>
+                      <h5 class="card-title">Janant Hair</h5>
                       <p class="">
                         I am Experienced Website Designer & Developer. I
                         Specialized in Front-end and Back-end technology.
                       </p>
                       <div className="artist-location">
                         <MdLocationPin size={25} />
-                        <span style={{ marginLeft: "10px" }}>India</span>
+                        <span style={{ marginLeft: "10px" }}>Canada</span>
                       </div>
                       <p class="card-text">
                         {/* <small class="text-body-secondary">
@@ -209,10 +209,9 @@ const HairStyle = () => {
                       </p>
                       <div className="artist-skills">
                         <ul>
-                          <li>javascript</li>
-                          <li>ReactJS</li>
-                          <li>NodeJs</li>
-                          <li>MongoDb</li>
+                          <li>Salon  </li>
+                          <li>Hair Stylist</li>
+                         
                         </ul>
                       </div>
                     </div>
@@ -222,7 +221,7 @@ const HairStyle = () => {
               </Link>
 
 
-              <Link to="/profile" >
+              {/* <Link to="/profile" >
               <div class="card mb-3 border" style={{ maxWidth: "100%" }}>
                 <div class="row g-0">
                   <div class="col-md-3">
@@ -244,9 +243,7 @@ const HairStyle = () => {
                         <span style={{ marginLeft: "10px" }}>India</span>
                       </div>
                       <p class="card-text">
-                        {/* <small class="text-body-secondary">
-                          Last updated 3 mins ago
-                        </small> */}
+                       
                       </p>
                       <div className="artist-skills">
                         <ul>
@@ -260,7 +257,7 @@ const HairStyle = () => {
                   </div>
                 </div>
               </div>
-              </Link>
+              </Link> */}
 
             </div>
           </div>

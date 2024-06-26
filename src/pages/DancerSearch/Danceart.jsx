@@ -154,7 +154,7 @@ const Danceart = () => {
                   </div>
                   <div class="col-md-9">
                     <div class="card-body">
-                      <h5 class="card-title">Himanshu Rawat</h5>
+                      <h5 class="card-title">karan sagar</h5>
                       <p class="">
                         I am Experienced Website Designer & Developer. I
                         Specialized in Front-end and Back-end technology.
@@ -170,10 +170,10 @@ const Danceart = () => {
                       </p>
                       <div className="artist-skills">
                         <ul>
-                          <li>javascript</li>
-                          <li>ReactJS</li>
-                          <li>NodeJs</li>
-                          <li>MongoDb</li>
+                          <li>dance choreographer</li>
+                          <li>Wedding Choreographer</li>
+                          <li>Zumba Training</li>
+                          <li>yoga</li>
                         </ul>
                       </div>
                     </div>

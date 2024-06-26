@@ -22,6 +22,9 @@ import Paintart from "./pages/PainterSearch/Paintart";
 import Writeart from "./pages/WritersSearch/Writeart";
 import Teacherart from "./pages/SpecialSearch/Teacherart";
 import SignUpArtist from "./pages/SIgnUpArtist/SignUpArtist";
+import TermsCondition from "./pages/Terms&Condition/TermsCondition";
+import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
+import SheetalProfile from "./pages/Profile/sheetalProfile/SheetalProfile";
 
 function App() {
   return (
@@ -90,6 +93,19 @@ function App() {
           <Route path="/contact " element={<Signup />}>
             {" "}
           </Route>
+          <Route path="/askform" element={<AskForm />}>
+            {" "}
+          </Route>
+          <Route path="/termscondition" element={<TermsCondition />}>
+            {" "}
+          </Route>
+          <Route path="/privacypolicy" element={<PrivacyPolicy/>}>
+            {" "}
+          </Route>
+          <Route path="/sheetal" element={<SheetalProfile/>}>
+            {" "}
+          </Route>
+          {/* /profile/sheetal*/}
 
           {/* */}
 

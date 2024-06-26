@@ -138,7 +138,7 @@ const Hennaart = () => {
 
             {/* artist search-result */}
             <div className="col-md-9 border p-5">
-              <Link to="/profile" >
+              {/* <Link to="/profile" >
              
               <div class="card mb-3 border" style={{ maxWidth: "100%" }}>
                 <div class="row g-0">
@@ -161,9 +161,7 @@ const Hennaart = () => {
                         <span style={{ marginLeft: "10px" }}>India</span>
                       </div>
                       <p class="card-text">
-                        {/* <small class="text-body-secondary">
-                          Last updated 3 mins ago
-                        </small> */}
+                        
                       </p>
                       <div className="artist-skills">
                         <ul>
@@ -177,9 +175,9 @@ const Hennaart = () => {
                   </div>
                 </div>
               </div>
-              </Link>
+              </Link> */}
 
-              <Link to="/profile" >
+              {/* <Link to="/profile" >
               <div class="card mb-3 border" style={{ maxWidth: "100%" }}>
                 <div class="row g-0">
                   <div class="col-md-3 image-box">
@@ -201,9 +199,7 @@ const Hennaart = () => {
                         <span style={{ marginLeft: "10px" }}>India</span>
                       </div>
                       <p class="card-text">
-                        {/* <small class="text-body-secondary">
-                          Last updated 3 mins ago
-                        </small> */}
+                        
                       </p>
                       <div className="artist-skills">
                         <ul>
@@ -217,10 +213,10 @@ const Hennaart = () => {
                   </div>
                 </div>
               </div>
-              </Link>
+              </Link> */}
 
 
-              <Link to="/profile" >
+              {/* <Link to="/profile" >
               <div class="card mb-3 border" style={{ maxWidth: "100%" }}>
                 <div class="row g-0">
                   <div class="col-md-3">
@@ -242,9 +238,7 @@ const Hennaart = () => {
                         <span style={{ marginLeft: "10px" }}>India</span>
                       </div>
                       <p class="card-text">
-                        {/* <small class="text-body-secondary">
-                          Last updated 3 mins ago
-                        </small> */}
+                     
                       </p>
                       <div className="artist-skills">
                         <ul>
@@ -258,7 +252,7 @@ const Hennaart = () => {
                   </div>
                 </div>
               </div>
-              </Link>
+              </Link> */}
 
             </div>
           </div>

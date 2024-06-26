@@ -42,8 +42,9 @@ function Header() {
   </Link>
 
   <ul class="dropdown-menu">
+  <li><Link to="/signup" class="dropdown-item" >Signup as User</Link></li>
     <li><Link to="/signupartist" class="dropdown-item" >Signup as Artist</Link></li>
-    <li><Link to="/signup" class="dropdown-item" >Signup as User</Link></li>
+    
   </ul>
         </li>
         

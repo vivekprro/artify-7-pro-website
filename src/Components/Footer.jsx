@@ -44,23 +44,23 @@ const Footer = () => {
                 <li><a href="#home"> Home </a></li>
                 <li><a href="#about"> About </a></li>
                 <li><Link to="/signup">Services</Link></li>
-                <li><Link to="/signup">Contact</Link></li>
+                <li><Link to="">Contact</Link></li>
               </ul>
             </div>
             <div className="col-md-3 footer-content">
               <ul>
                 <p className="footer-heading">Artist</p>
                 <ul>
-                  <li><Link> Makeup </Link> </li>
-                  <li><Link>Hairstyle </Link></li>
-                  <li><Link> Nail Art </Link></li>
-                  <li><Link> Henna Art </Link></li>
-                  <li><Link> Fashion </Link></li>
-                  <li><Link> Dance </Link></li>
-                  <li><Link> Music </Link></li>
-                  <li><Link> Painting </Link></li>
-                  <li><Link> Writing </Link></li>
-                  <li><Link> Teacher </Link></li>
+                  <li><Link to="/makeup"> Makeup </Link> </li>
+                  <li><Link to="/hairstyle">Hairstyle </Link></li>
+                  <li><Link to="/nailart"> Nail Art </Link></li>
+                  <li><Link to="/henna"> Henna Art </Link></li>
+                  <li><Link to="/fashion"> Fashion </Link></li>
+                  <li><Link to="/dance"> Dance </Link></li>
+                  <li><Link to="/music"> Music </Link></li>
+                  <li><Link to="/paint"> Painting </Link></li>
+                  <li><Link to="/writer"> Writing </Link></li>
+                  <li><Link to="/teacher"> Teacher </Link></li>
                 </ul>
               </ul>
             </div>
@@ -68,7 +68,10 @@ const Footer = () => {
           <div className="row sub-footer">
             <div className="col-md-12">
               <p className="sub-footer-des">
-                Copyright © Artify 7 Pro Company Pvt. Ltd All rights reserved
+                Copyright © Artify 7 Pro Company Pvt. Ltd All rights reserved 
+                <span className="ms-3 "><Link to="/termscondition" className="text-light">Terms & Condition</Link></span>
+                 <span className="ms-3"><Link to="/privacypolicy" className="text-light">Privacy Policy</Link></span>
+                
               </p>
             </div>
           </div>
