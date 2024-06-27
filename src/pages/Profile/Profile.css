@@ -11,11 +11,14 @@
     left: 40px;
     /* display: none; */
 }
-
+.profile-sidebar-wrapper{
+    text-align: center;
+}
 .profile-image{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    margin: auto;
 }
 .profile-image img{
  

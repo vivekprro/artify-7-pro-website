@@ -5,6 +5,7 @@ import Header from "../../Components/Header/Header";
 import { Link } from "react-router-dom";
 // import "./Teacherart.css"
 import FixedPrice from "../../Components/FilterPrices/FixedPrice";
+import Footer from "../../Components/Footer";
 
 const Teacherart = () => {
 
@@ -267,6 +268,7 @@ const Teacherart = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

@@ -118,10 +118,11 @@ const handleInput = (value) =>{
 }
                   <Link to={'/'+url}
 
-                    className="btn search-btn"
+                    className="btn search-btn lh-lg"
                     type="button"
                     id="button-addon1"
                     style={{ borderRadius: " 0px 15px 15px 0px" }}
+                    
                   >
                     Search
                   </Link>
@@ -134,7 +135,7 @@ const handleInput = (value) =>{
        
         {/* art from section */}
 
-        <section className="section mt-5 artist-carousel-section">
+        <section className="section mt-5 artist-carousel-section" id="category">
           <div className="container">
             <div className="row">
               <div className="col carousel-content">
@@ -151,7 +152,7 @@ const handleInput = (value) =>{
               </div>
               <div className="row">
                 <div className="col">
-                  <MultiCarousel />
+                  <MultiCarousel  />
                 </div>
               </div>
             </div>

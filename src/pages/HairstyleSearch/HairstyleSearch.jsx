@@ -5,8 +5,10 @@ import Header from "../../Components/Header/Header";
 import { Link } from "react-router-dom";
 // import "./HairstyleSearch.css"
 import FixedPrice from "../../Components/FilterPrices/FixedPrice";
+import Footer from "../../Components/Footer";
+import InnerHeading from "../../Components/InnerHeading/InnerHeading";
 
-const HairStyle = () => {
+const HairStyle = ({path}) => {
 //   -cut and styling
 // -color correction specialists 
 // -hair extension
@@ -18,6 +20,7 @@ const HairStyle = () => {
       <video autoPlay loop id="myVideo">
         <source src="./images/home-video.mp4" type="video/mp4" />
       </video>
+      <InnerHeading path={path}/>
       <section className="artist-search">
         <div className="container-fluid">
           <div className="row">
@@ -263,6 +266,7 @@ const HairStyle = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

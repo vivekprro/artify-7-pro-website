@@ -5,8 +5,10 @@ import Header from "../../Components/Header/Header";
 import { Link } from "react-router-dom";
 // import "./Hennaart.css"
 import FixedPrice from "../../Components/FilterPrices/FixedPrice";
+import Footer from "../../Components/Footer";
+import InnerHeading from "../../Components/InnerHeading/InnerHeading";
 
-const Hennaart = () => {
+const Hennaart = ({path}) => {
 //   -indian henna
 // -pakistani henna
 // -arabic henna
@@ -17,6 +19,7 @@ const Hennaart = () => {
       <video autoPlay loop id="myVideo">
         <source src="./images/home-video.mp4" type="video/mp4" />
       </video>
+      <InnerHeading path={path}/>
       <section className="artist-search">
         <div className="container-fluid">
           <div className="row">
@@ -258,6 +261,7 @@ const Hennaart = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

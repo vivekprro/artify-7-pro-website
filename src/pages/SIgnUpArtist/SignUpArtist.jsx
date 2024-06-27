@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-// import "./SignUpArtist.css"
+import InnerHeading from "../../Components/InnerHeading/InnerHeading";
+import Footer from "../../Components/Footer";
+import "./SignUpArtist.css"
 
-const SignUpArtist = () => {
+const SignUpArtist = ({path}) => {
   // const history = useNavigate();
   const [name, setName] = useState();
   const [email, setEmail] = useState();
@@ -55,9 +57,24 @@ const SignUpArtist = () => {
       <video autoPlay loop id="myVideo">
         <source src="./images/home-video.mp4" type="video/mp4" />
       </video>
+      <InnerHeading path={path}/>
       <div className="container signup ">
+        {/* content */}
         <div className="row mx-auto my-5">
-          <div className="col-md-4 m-auto " style={{background:"white"}}>
+          <div className="col-md-6" >
+          <p><span>Makeup Artists:</span> Our makeup artists are experts in creating flawless, camera-ready looks for any occasion.</p>
+            <p><span>Hair Stylists:</span> Our hair stylists are skilled in the latest cutting-edge techniques and trends, delivering bespoke hairstyles that exceed expectations.</p>
+            <p><span>Nail Artists:</span> Our nail artists are renowned for their intricate designs and attention to detail, transforming nails into works of art.</p>
+            <p><span>Henna Artists:</span> Our henna artists are masters of traditional and contemporary designs, creating temporary body art that's both beautiful and meaningful.</p>
+            <p><span>Fashion Designers:</span> Our fashion designers are visionary creators of unique, stylish, and bespoke clothing that reflects your personality and flair.</p>
+            <p><span>Musicians:</span> Our musicians are talented performers who deliver captivating shows, from solo performances to ensemble work, that leave a lasting impression.</p>
+            <p><span>Dancers:</span> Our dancers are skilled performers who bring energy, grace, and passion to every performance, mesmerizing audiences with their talent.</p>
+            <p><span>Writers:</span> Our writers are creative storytellers who craft compelling content that engages, inspires, and resonates with diverse audiences.</p>
+            <p><span>Painters:</span> Our painters are visionary artists who bring color, emotion, and depth to every canvas, creating one-of-a-kind masterpieces that inspire and delight.</p>
+            <p><span>Makeup Artists:</span>Special Teachers: Our special teachers are dedicated educators who provide personalized support and guidance, empowering students to reach their full potential.</p>
+          
+          </div>
+          <div className="col-md-6 m-auto" style={{background:"white",}}>
             <form
               className="px-4 py-2"
               // action="POST"
@@ -192,6 +209,7 @@ const SignUpArtist = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

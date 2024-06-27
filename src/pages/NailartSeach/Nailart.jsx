@@ -4,9 +4,11 @@ import { CiSearch } from "react-icons/ci";
 import Header from "../../Components/Header/Header";
 import { Link } from "react-router-dom";
 import FixedPrice from "../../Components/FilterPrices/FixedPrice";
+import Footer from "../../Components/Footer";
+import InnerHeading from "../../Components/InnerHeading/InnerHeading";
 // import "./Nailart.css"
 
-const Nailart = () => {
+const Nailart = ({path}) => {
 //   -manicure and pedicure 
 // -gel and  acrylic nail artists 
 // -dipping powder nail specialists 
@@ -18,6 +20,7 @@ const Nailart = () => {
       <video autoPlay loop id="myVideo">
         <source src="./images/home-video.mp4" type="video/mp4" />
       </video>
+      <InnerHeading path={path}/>
       <section className="artist-search">
         <div className="container-fluid">
           <div className="row">
@@ -261,6 +264,7 @@ const Nailart = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

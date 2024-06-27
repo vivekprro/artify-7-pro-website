@@ -25,6 +25,8 @@ import SignUpArtist from "./pages/SIgnUpArtist/SignUpArtist";
 import TermsCondition from "./pages/Terms&Condition/TermsCondition";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import SheetalProfile from "./pages/Profile/sheetalProfile/SheetalProfile";
+import RefundCancelation from "./pages/RefundCancelation/RefundCancelation";
+import ContactUs from "./pages/ContactUs/Contactus";
 
 function App() {
   return (
@@ -35,11 +37,11 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           
           {/* <Route path="/" element={<Header />}></Route> */}
-          <Route path="/login" element={<Login />}></Route>
-          <Route path="/signup" element={<Signup />}>
+          <Route path="/login" element={<Login path="Login" />}></Route>
+          <Route path="/signup" element={<Signup path="Signup" />}>
             {" "}
           </Route>
-          <Route path="/signupartist" element={<SignUpArtist />}>
+          <Route path="/signupartist" element={<SignUpArtist path="Signup" />}>
             {" "}
           </Route>
           <Route path="/explore" element={<ExploreApp />}>
@@ -51,7 +53,7 @@ function App() {
           <Route path="/profile" element={<Profile />}>
             {" "}
           </Route>
-          <Route path="/askform" element={<AskForm />}>
+          <Route path="/askform" element={<AskForm  path="Ask Form"/>}>
             {" "}
           </Route>
           <Route path="/forgetpassword" element={<ForgetPassword/>}>
@@ -60,54 +62,63 @@ function App() {
           <Route path="/resetpassword" element={<ResetPassword/>}>
             {" "}
           </Route>
-          <Route path="/makeup" element={<MakeupSearch/>}>
+          <Route path="/makeup" element={<MakeupSearch path="Makeup Artist"/>}>
             {" "}
           </Route>
-          <Route path="/hairstyle" element={<HairStyle/>}>
+          <Route path="/hairstyle" element={<HairStyle path="Hair Stylish"/>}>
             {" "}
           </Route>
-          <Route path="/nailart" element={<Nailart />}>
+          <Route path="/nailart" element={<Nailart path="Nail Artist" />}>
             {" "}
           </Route>
-          <Route path="/henna" element={<Hennaart />}>
+          <Route path="/henna" element={<Hennaart path="Henna Artist" />}>
             {" "}
           </Route>
-          <Route path="/fashion" element={<Fashionart />}>
+          <Route path="/fashion" element={<Fashionart path="Fashion Stylish" />}>
             {" "}
           </Route>
-          <Route path="/dance" element={<Danceart />}>
+          <Route path="/dance" element={<Danceart path="Dancer" />}>
             {" "}
           </Route>
-          <Route path="/music" element={<Musicart />}>
+          <Route path="/music" element={<Musicart path="Musician" />}>
             {" "}
           </Route>
-          <Route path="/paint" element={<Paintart />}>
+          <Route path="/paint" element={<Paintart path="Painters" />}>
             {" "}
           </Route>
-          <Route path="/writer" element={<Writeart />}>
+          <Route path="/writer" element={<Writeart path="Writer" />}>
             {" "}
           </Route>
-          <Route path="/teacher" element={<Teacherart />}>
+          <Route path="/teacher" element={<Teacherart path="Writer" />}>
             {" "}
           </Route>
-          <Route path="/contact " element={<Signup />}>
+          <Route path="/contact " element={<Signup path="Sign Up"/>}>
             {" "}
           </Route>
-          <Route path="/askform" element={<AskForm />}>
+          <Route path="/askform" element={<AskForm path="Ask Form" />}>
             {" "}
           </Route>
-          <Route path="/termscondition" element={<TermsCondition />}>
+          <Route path="/termscondition" element={<TermsCondition path="Terms & Condition" />}>
             {" "}
           </Route>
-          <Route path="/privacypolicy" element={<PrivacyPolicy/>}>
+          <Route path="/privacypolicy" element={<PrivacyPolicy path="Privacy Policy"/>}>
             {" "}
           </Route>
-          <Route path="/sheetal" element={<SheetalProfile/>}>
+          <Route path="/sheetal" element={<SheetalProfile />}>
             {" "}
           </Route>
+          <Route path="/refundcancelation" element={<RefundCancelation path="Reafund & Cancelation"/>}>
+            {" "}
+          </Route>
+          <Route path="/contactus" element={<ContactUs path="Contactus"/>}>
+            {" "}
+          </Route>
+          {/* <Route path="/seeratgill" element={<SeeratGillProfile/>}>
+            {" "}
+          </Route> */}
           {/* /profile/sheetal*/}
 
-          {/* */}
+          {/* /refundcancelation*/}
 
           {/*  <Route path="/dynamicform" element={<DynamicForm />}> </Route>
           <Route path="/coverpage" element={<Coverpage />}> </Route> */}

@@ -5,6 +5,7 @@ import Header from "../../Components/Header/Header";
 import { Link } from "react-router-dom";
 // import "./Fashionart.css"
 import FixedPrice from "../../Components/FilterPrices/FixedPrice";
+import Footer from "../../Components/Footer";
 
 const Fashionart = () => {
 
@@ -282,6 +283,7 @@ const Fashionart = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

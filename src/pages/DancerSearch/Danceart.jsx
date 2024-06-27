@@ -5,12 +5,15 @@ import Header from "../../Components/Header/Header";
 import { Link } from "react-router-dom";
 // import "./Danceart.css"
 import FixedPrice from "../../Components/FilterPrices/FixedPrice";
+import Footer from "../../Components/Footer";
+import InnerHeading from "../../Components/InnerHeading/InnerHeading";
 
 const Danceart = () => {
 
   return (
     <>
       {/* <Header /> */}
+      <InnerHeading/>
       <video autoPlay loop id="myVideo">
         <source src="./images/home-video.mp4" type="video/mp4" />
       </video>
@@ -267,6 +270,7 @@ const Danceart = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

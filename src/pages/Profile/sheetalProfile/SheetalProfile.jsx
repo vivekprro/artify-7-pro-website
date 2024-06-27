@@ -5,6 +5,9 @@ import { IoMailSharp } from "react-icons/io5";
 import { IoIosCall } from "react-icons/io";
 import { FaCirclePlus } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import AskForm from "../../../Components/AskForm/AskForm";
+import AskExpert from "../../../Components/AskExpert/AskExpert";
+import BookNow from "../../../Components/BookNow/BookNow";
 
 
 
@@ -44,62 +47,94 @@ const SheetalProfile = () => {
                 <div className="location">
                   <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">
-                      <IoLocationSharp />
-                    </span>
-                    <input
+                     {/* <IoLocationSharp />  */}
+                     Location
+                    </span> 
+                    {/* <input
                       type="text"
                       class="form-control"
                       placeholder="Username"
                       aria-label="Location"
                       aria-describedby="basic-addon1"
                       value="swis city , amritsar, India "
-                    />
-                    {/* <div class="form-control"
-                      placeholder="Username"
-                      aria-label="Location"
-                      aria-describedby="basic-addon1">
+                    /> */}
+                    <div class="form-control">
+                      
                          Amritsar, India
-                      </div> */}
+                      </div>
                   </div>
                 </div>
                 <div className="location">
                   <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">
-                    <IoMailSharp />
+                    {/* <IoMailSharp /> */}
+                    Experience
                     </span>
-                    <input
+
+                      <div className="form-control">
+                        1 year+
+                      </div>
+
+
+                    {/* <input
                       type="text"
                       class="form-control"
                       placeholder="Email"
                       aria-label="Username"
                       aria-describedby="basic-addon1"
-                    />
-                  </div>
-                </div>
-                <div className="location">
-                  <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1">
-                    <IoIosCall />
-
-                    </span>
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Username"
-                      aria-label="contactus"
-                      aria-describedby="basic-addon1"
-                    />
+                    /> */}
                   </div>
                 </div>
                 <div className="location">
                   <div class="input-group mb-3 form-control d-flex justify-content-between "            
                    aria-label="Username"
-                   aria-describedby="basic-addon1">
+                   aria-describedby="basic-addon1"
+                   style={{height:"150px"}}
+                   >
                     
-                    <span>Education</span>
-                    <a href="" target="_blank" rel="noopener noreferrer" className="fw-semibold me-4" style={{color:"blue"}}>Add</a>
+                    <span>Short Description about yourself</span>
+                    </div>
+                </div>
+                {/* <div className="location">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">
+                    
+                    Bio
+
+                    </span>
+
+                    <div className="form-control">
+                        Bio
+                    </div>
+                    
+
+                  </div>
+                </div> */}
+                <div className="location">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">
+                    {/* <IoIosCall /> */}
+                  Services
+
+                    </span>
+
+                    <div className="form-control">
+                    Party Make Up, Hair Do’s, Shoot Makeup
+                    </div>
+                    {/* <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Username"
+                      aria-label="contactus"
+                      aria-describedby="basic-addon1"
+                    /> */}
+                    {/* <div className="form-control">
+
+                    </div> */}
+
                   </div>
                 </div>
+                
                 {/* <div className="location">
                   <div class="input-group mb-3 form-control d-flex justify-content-between "            
                    aria-label="Username"
@@ -127,23 +162,22 @@ const SheetalProfile = () => {
                     <a href="" target="_blank" rel="noopener noreferrer" className="fw-semibold me-4" style={{color:"blue"}}>Add</a>
                   </div>
                 </div> */}
-                <div className="location">
-                  <div class="input-group mb-3 form-control d-flex justify-content-between "            
-                   aria-label="Username"
-                   aria-describedby="basic-addon1"
-                   style={{height:"150px"}}
-                   >
+
+
+                 <div className="location d-flex justify-content-start">
+                  {/* ask form */}
+              <AskExpert/>
+              <BookNow/>
                     
-                    <span>Short Description about yourself</span>
-                    </div>
-                </div>
+                    
+                </div> 
                 
               </div>
 
 
-              {/* ask form */}
-
-              <div className="ask-expert">
+              
+                  
+              {/* <div className="ask-expert">
                 <span>
                  <Link to="/askform">
                  <span className="btn btn-primary-dark">
@@ -157,7 +191,7 @@ const SheetalProfile = () => {
 
 
                 </span>
-              </div>
+              </div> */}
 
             </div>
 
@@ -232,12 +266,12 @@ const SheetalProfile = () => {
 
                 {/* create project section */}
 
-                <div className="create-project">
+                {/* <div className="create-project">
                 <FaCirclePlus 
                 size={70} />
 
                 <button className="btn btn-primary-dark">Create Post</button>
-                </div>
+                </div> */}
                    
                 </div>
             </div>

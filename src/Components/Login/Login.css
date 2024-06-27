@@ -31,7 +31,8 @@
   }
   .login{
     left: 0;
-    position: fixed;
+    margin-block: 50px;
+    /* position: fixed; */
     /* bottom: 0; */
     /* background: rgba(0, 0, 0, 0.5); */
     color: #f1f1f1;

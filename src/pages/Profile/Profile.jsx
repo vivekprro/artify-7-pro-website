@@ -37,9 +37,9 @@ const Profile = () => {
                 <div className="profile-image">
                   <img src="./images/profile.jpg" alt="" srcset="" />
                 </div>
-                <span>megnath chapri</span>
+                <span className="">megnath chapri</span>
                 <br />
-                <span>Bad Graphic Designer</span>
+                <span className="">Bad Graphic Designer</span>
 
                 <div className="location">
                   <div class="input-group mb-3">

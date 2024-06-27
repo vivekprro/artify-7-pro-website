@@ -110,6 +110,8 @@ const PrivacyPolicy = () => {
                
             </ol>
 
+            
+
 
             <p>By using our website and services, you consent to the collection, use, and disclosure of your personal information as described in this privacy policy.</p>
 

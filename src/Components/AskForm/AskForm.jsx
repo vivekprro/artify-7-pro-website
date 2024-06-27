@@ -1,13 +1,17 @@
 import React from 'react'
 import "./AskForm.css"
 import Bgvideo from '../Bgvideo/Bgvideo'
-const AskForm = () => {
+import InnerHeading from "../InnerHeading/InnerHeading";
+import Footer from "../Footer";
+
+const AskForm = ({path}) => {
+
   return (
    <>
 
    <Bgvideo/>
 
-
+   <InnerHeading path={path}/>
     <div className="container ask-container ">
       <div className="row mx-auto my-auto align-items-center h-100">
         <div className="col-md-6 m-auto border ask-form ">
@@ -49,6 +53,7 @@ const AskForm = () => {
         </div>
         </div>
     </div>
+    <Footer/>
   
   
 </>

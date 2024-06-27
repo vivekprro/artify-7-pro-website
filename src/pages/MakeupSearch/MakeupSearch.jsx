@@ -11,8 +11,10 @@ import FixedPrice from "../../Components/FilterPrices/FixedPrice";
 import Bgvideo from "../../Components/Bgvideo/Bgvideo";
 import AskForm from "../../Components/AskForm/AskForm";
 import ProfileConnectBtn from "../../Components/ProfileConnectBtn/ProfileConnectBtn";
+import Footer from "../../Components/Footer";
+import InnerHeading from "../../Components/InnerHeading/InnerHeading";
 
-const MakeupSearch = () => {
+const MakeupSearch = ({path}) => {
 
 
   return (
@@ -21,6 +23,7 @@ const MakeupSearch = () => {
 
       
       <Bgvideo/>
+      <InnerHeading path={path} />
       <section className="artist-search border">
         <div className="container-fluid">
           <div className="row">
@@ -333,6 +336,7 @@ const MakeupSearch = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

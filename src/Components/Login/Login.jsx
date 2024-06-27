@@ -3,9 +3,10 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./Login.css"
 import Footer from "../Footer";
+import InnerHeading from "../InnerHeading/InnerHeading";
 
-const Login = () => {
-  // const history = useNavigate();
+const Login = ({path}) => {
+  // const history = useNavigate(); 
   const [email, setEmail] = useState("");
   const [password, setPasssword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
@@ -29,7 +30,7 @@ const Login = () => {
         if (response.data.status) {
           setSuccessMessage("Login successful! Redirecting to dashboard...");
           setTimeout(() => {
-            navigate("/profile");
+            navigate("/home");
           }, 2000); // Redirect after 2 seconds
         }
       })
@@ -47,6 +48,8 @@ const Login = () => {
     <video autoPlay loop id="myVideo">
         <source src="./images/home-video.mp4" type="video/mp4" />
       </video>
+      {/* innerHeading */}
+      <InnerHeading path={path}/>
       <div className="container login">
         <div className="row  mx-auto my-auto align-items-center h-100">
           <div className="col-md-4 m-auto " style={{background:"white"}}>
@@ -98,6 +101,21 @@ const Login = () => {
                   onChange={(e) => setPasssword(e.target.value)}
                 />
               </div>
+              <div className="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  className="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label
+                  className="form-check-label"
+                  for="exampleCheck1"
+                  style={{ fontSize: "12px" }}
+                >
+                  By clicking continue, you agree to our Terms of Service and
+                  Privacy Policy
+                </label>
+              </div>
 
               <div className="mb-3">
                 <Link to="/artist">
@@ -116,34 +134,20 @@ const Login = () => {
                 </Link>
               </div>
 
-              <div className="mb-3 form-check">
-                <input
-                  type="checkbox"
-                  className="form-check-input"
-                  id="exampleCheck1"
-                />
-                <label
-                  className="form-check-label"
-                  for="exampleCheck1"
-                  style={{ fontSize: "12px" }}
-                >
-                  By clicking continue, you agree to our Terms of Service and
-                  Privacy Policy
-                </label>
-              </div>
+             
               <div className="mb-3">
-                <Link to="/signup">
+                {/* <Link to="/signup">
                   <button type="button " className="btn btn-secondary w-100 ">
                     Register ?
                   </button>
-                </Link>
+                </Link> */}
               </div>
             </form>
           </div>
         </div>
       </div>
 
-      {/* <Footer/> */}
+      <Footer/>
 
       
     </>
