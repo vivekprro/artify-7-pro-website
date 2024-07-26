@@ -1,4 +1,4 @@
-  import React from "react";
+  import React, { useEffect, useState } from "react";
 // import "./ArtistSearch.css";
 import { MdLocationPin } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
@@ -13,9 +13,53 @@ import AskForm from "../../Components/AskForm/AskForm";
 import ProfileConnectBtn from "../../Components/ProfileConnectBtn/ProfileConnectBtn";
 import Footer from "../../Components/Footer";
 import InnerHeading from "../../Components/InnerHeading/InnerHeading";
+import axios from "axios";
+import AskExpert from "../../Components/AskExpert/AskExpert";
+import BookNow from "../../Components/BookNow/BookNow";
+// import data from "../../JSON/ArtistData.json"
+
 
 const MakeupSearch = ({path}) => {
 
+const [data , setData] = useState([])
+
+  //  useEffect( () => {
+  //   fetch('https://jsonplaceholder.typicode.com/todos/1')
+  //     .then(response => response.json())
+  //     .then(json => {
+  //       setTimeout(() => {
+  //         setData(json)
+  //       },2000);
+         
+  //     })
+  //     .catch((error)=>{
+  //       console.log(error);
+  //     })
+  // }, [])
+
+  // useEffect(() => {
+   
+
+  //   const fetchData = async () =>{
+  //     try {
+     
+  //      await fetch('https://jsonplaceholder.typicode.com/todos/1')
+  //      .then(res => res.json())
+  //      .then(data => console.log(data))
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+
+  //   }
+  //   fetchData()
+
+  // }, [])
+  
+
+  
+
+
+ 
 
   return (
     <>
@@ -119,141 +163,76 @@ const MakeupSearch = ({path}) => {
                     placeholder="Enter Location"
                   />
                 </div>
-                {/* project type */}
-                {/* <div className="filter-header  d-flex justify-content-between align-items-end mb-3 mt-4">
-                  <span className="d-inline-block fs-5 fw-bolder">
-                    Project Type
-                  </span>
-                  <span
-                    className="artist clear-btn fs-5 fw-semibold"
-                    style={{ color: "blue" }}
-                  >
-                    Clear
-                  </span>
-                </div>
-                <div className="artist-inputs  ">
-                  <ul className="ms-3">
-                    <li>
-                      <input type="checkbox" name="dancer" id="" />
-                      <label htmlFor="" className="fs-5 ms-2">
-                        Hourly Rate
-                      </label>
+                <FixedPrice/>
+
+                    <div className="row my-4">
+                      <div className="col"><AskExpert/></div>
+                      <div className="col"><BookNow/></div>
+                       
                       
-                      
-                    </li>
-                    <li>
-                      <input type="checkbox" name="dancer" id="" />
-                      <label htmlFor="" className="fs-5 ms-2 mt-1">
-                        Fixed Price
-                      </label>
-                     
-                    </li>
-                  </ul>
-                </div>*/}
-
-                  <FixedPrice/>
-
-                  <ProfileConnectBtn/>
-
-                  {/* <AskForm/> */}
-                {/* fixed price */}
-                {/* <div className="filter-header  d-flex justify-content-between align-items-end mb-3 mt-4">
-                  <span className="d-inline-block fs-5 fw-bolder">
-                  Fixed Price
-                  </span>
-                  <span
-                    className="artist clear-btn fs-5 fw-semibold"
-                    style={{ color: "blue" }}
-                  >
-                    Clear
-                  </span>
-                </div> 
-                <div className="artist-inputs  ">
-                  <ul className="mb-0">
-                   
-                    <li>
-                      <div className="fixed-price p-1">
-                        <div className="fixed-price-lable">
-                          <span className="fs-5">min</span>
-                        </div>
-                        <div className="fixed-price-input d-flex justify-content-between align-items-center">
-                        <FiDollarSign size={20} />
-                        <input type="text" name="" id="" style={{width:"80%"}}/>
-                        <span className="fs-4 ">USD</span>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
+                    </div>
+               
              
-                <div className="artist-inputs  ">
-                  <ul className="">
-                   
-                    <li>
-                      <div className="fixed-price p-1">
-                        <div className="fixed-price-lable">
-                          <span className="fs-5">max</span>
-                        </div>
-                        <div className="fixed-price-input d-flex justify-content-between align-items-center">
-                        <FiDollarSign size={20} />
-                        <input type="text" name="" id="" style={{width:"80%"}}/>
-                        <span className="fs-4 ">USD</span>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div> */}
-
 
               </div>
             </div>
 
             {/* artist search-result */}
             <div className="col-md-8 border p-5">
-              <Link to="/sheetal" >
+
+                 
+                      {/* <ul>
+                        
+                     { data && Array.isArray(data) ? data.map(item=>(  
+                     <li key={item.id}>{item.title}</li>
+                    )): <li>Loading</li>}
+                      
+                      
+                    </ul>  */}
+                
+             <Link to="/sheetal" >
              
               <div class="card mb-3 border" style={{ maxWidth: "100%" }}>
                 <div class="row g-0">
-                  <div class="col-md-3">
-                    <div className="artist-profile">
-                    <img
-                      src="/images/artist-profile/sheetal-arora.jpeg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                    </div>
-                    
-                  </div>
-                  <div class="col-md-9">
-                    <div class="card-body">
-                      <h5 class="card-title">Sheetal Arora</h5>
-                      <p class="">
-                        I am Experienced Website Designer & Developer. I
-                        Specialized in Front-end and Back-end technology.
-                      </p>
-                      <div className="artist-location">
-                        <MdLocationPin size={25} />
-                        <span style={{ marginLeft: "10px" }}>Amritsar, India</span>
-                      </div>
-                      <p class="card-text">
-                        {/* <small class="text-body-secondary">
-                          Last updated 3 mins ago
-                        </small> */}
-                      </p>
-                      <div className="artist-skills">
-                        <ul>
-                          <li>Make Up</li>
-                          <li>Hair Do’s</li>
-                          <li>Shoot Makeup</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              </Link>
+                 <div class="col-md-3">
+                   <div className="artist-profile">
+                  <img
+                     src="/images/artist-profile/sheetal-arora.jpeg"
+                     class="img-fluid rounded-start"
+                     alt="..."
+                   />
+                   </div>
+                   
+                 </div>
+                 <div class="col-md-9">
+                   <div class="card-body">
+                     <h5 class="card-title">sheetal arora</h5>
+                     <p class="">
+                       I am Experienced Website Designer & Developer. I
+                       Specialized in Front-end and Back-end technology.
+                     </p>
+                     <div className="artist-location">
+                       <MdLocationPin size={25} />
+                       <span style={{ marginLeft: "10px" }}>Amritsar, India</span>
+                     </div>
+                     <p class="card-text">
+                      
+                     </p>
+                     <div className="artist-skills">
+                       <ul>
+                         <li>Make Up</li>
+                         <li>Hair Do’s</li>
+                         <li>Shoot Makeup</li>
+                       </ul>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             </Link>  
+              
 
-              <Link to="/profile" >
+             <Link to="/profile" >
               <div class="card mb-3 border" >
                 <div class="row g-0">
                   <div class="col-md-3 image-box">
@@ -267,20 +246,20 @@ const MakeupSearch = ({path}) => {
                     <div class="card-body">
                       <h5 class="card-title">Seerat Gill</h5>
                       <p class="">
-                        {/* I am Experienced Website Designer & Developer. I
-                        Specialized in Front-end and Back-end technology. */}
-                      </p>
-                      <div className="artist-location">
+                       I am Experienced Website Designer & Developer. I
+                        Specialized in Front-end and Back-end technology. 
+                       </p> 
+                       <div className="artist-location">
                         <MdLocationPin size={25} />
                         <span style={{ marginLeft: "10px" }}>India</span>
                       </div>
-                      <p class="card-text">
-                        {/* <small class="text-body-secondary">
-                          Last updated 3 mins ago
-                        </small> */}
+                      <p class="card-text"> 
+                        <small class="text-body-secondary">
+                         
+                        </small>
                       </p>
                       <div className="artist-skills">
-                        <ul>
+                       <ul>
                           <li>Facials </li>
                           <li>Makeups</li>
                           <li>Hairdos</li>
@@ -290,8 +269,8 @@ const MakeupSearch = ({path}) => {
                     </div>
                   </div>
                 </div>
-              </div>
-              </Link>
+              </div> 
+              </Link> 
 
 
               {/* <Link to="/profile" >

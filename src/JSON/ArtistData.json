@@ -2,29 +2,41 @@
 
 {
     "id":0,
+    "name":"sheetal arora",
+    "profile":"",
+    "cover":"",
+    "designation":"",
     "category":"makeup",
-    "sub-category":{
-        "0":"party-makeup",
-        "1":"airbrush-makeup",
-        "2":"Fashion",
-        "3":"editorial make",
-        "4":"Theatre makeup",
-        "5":"performance makeup"
-    }
+    "sub-category":"category",
+    "location":"Amritsar punjab",
+    "experience": "1",
+    "bio":"",
+    "services":["party make","hair do","shot makeup"],
+    "work references":["","",""],
+    "education":"",
+    "certificates":[""],
+    "awards":["","",""]
+    
    
 },
 
 {
     "id":1,
-    "category":"hairstyle",
-    "sub-category":{
-        "0":"party-makeup",
-        "1":"airbrush-makeup",
-        "2":"Fashion",
-        "3":"editorial make",
-        "4":"Theatre makeup",
-        "5":"performance makeup"
-    }
+    "name":"reet",
+    "cover":"",
+    "profile":"",
+    "designation":"salon owner",
+    "category":["hairstyle","makeup"],
+    "sub-category":"category",
+    "location":"british columbia ,aCanada",
+    "experience": "20",
+    "bio":"leading a professional role of 20+ years in makeup , hair and beauty I also provide practical and theoretical knowledge to the interested candidates who want to enhance their makeup/ hair do skills.",
+    "services":["bridal","non bridal make up","elebrity shoots","beauty","cosmetic and personal care"],
+    "work references":["","",""],
+    "education":"",
+    "certificates":[""],
+    "awards":["","",""]
+   
    
 }
 

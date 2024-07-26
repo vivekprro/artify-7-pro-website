@@ -19,7 +19,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="footer-social">
-                <ul className="d-flex">
+                {/* <ul className="d-flex">
                   <li>
                     <FaFacebookSquare size={30} />
                   </li>
@@ -35,7 +35,7 @@ const Footer = () => {
                   <li>
                     <FaLinkedin size={30} />
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
             <div className="col-md-3 footer-content ">
@@ -45,6 +45,7 @@ const Footer = () => {
                 <li><a href="#about"> About </a></li>
                 <li><a href="#category">Services</a></li>
                 <li><Link to="/contactus">Contact Us</Link></li>
+                <li><Link to="/contactus">Blogs</Link></li>
               </ul>
             </div>
             <div className="col-md-3 footer-content">
@@ -59,8 +60,8 @@ const Footer = () => {
                   <li><Link to="/dance"> Dance </Link></li>
                   <li><Link to="/music"> Music </Link></li>
                   <li><Link to="/paint"> Painting </Link></li>
-                  <li><Link to="/writer"> Writing </Link></li>
-                  <li><Link to="/teacher"> Teacher </Link></li>
+                  <li><Link to="/writer"> Writer </Link></li>
+                  <li><Link to="/teacher"> Special Teacher </Link></li>
                 </ul>
               </ul>
             </div>

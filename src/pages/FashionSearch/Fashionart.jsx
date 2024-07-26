@@ -6,8 +6,11 @@ import { Link } from "react-router-dom";
 // import "./Fashionart.css"
 import FixedPrice from "../../Components/FilterPrices/FixedPrice";
 import Footer from "../../Components/Footer";
+import AskExpert from "../../Components/AskExpert/AskExpert";
+import BookNow from "../../Components/BookNow/BookNow";
+import InnerHeading from "../../Components/InnerHeading/InnerHeading";
 
-const Fashionart = () => {
+const Fashionart = ({path}) => {
 
 //   -stylists
 // -designer
@@ -22,6 +25,7 @@ const Fashionart = () => {
       <video autoPlay loop id="myVideo">
         <source src="./images/home-video.mp4" type="video/mp4" />
       </video>
+      <InnerHeading path={path}/>
       <section className="artist-search">
         <div className="container-fluid">
           <div className="row">
@@ -125,6 +129,10 @@ const Fashionart = () => {
                 </div>
 
                 <FixedPrice/>
+                <div className="row my-4">
+                      <div className="col"><AskExpert/></div>
+                      <div className="col"><BookNow/></div>
+                    </div>
                 {/* <div className="filter-header  d-flex justify-content-between align-items-end mb-3 mt-4">
                   <span className="d-inline-block fs-5 fw-bolder">
                     Project Type

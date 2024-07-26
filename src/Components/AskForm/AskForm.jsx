@@ -14,7 +14,7 @@ const AskForm = ({path}) => {
    <InnerHeading path={path}/>
     <div className="container ask-container ">
       <div className="row mx-auto my-auto align-items-center h-100">
-        <div className="col-md-6 m-auto border ask-form ">
+        <div className="col-md-6 m-auto form-border ask-form ">
            <form className=''>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Name</label>

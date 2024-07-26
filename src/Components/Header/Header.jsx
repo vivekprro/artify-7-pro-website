@@ -11,48 +11,7 @@ function Header() {
     <>
 
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-  {/* <div class="container"> */}
-    <Link to="/" className="navbar-brand">
-      <img src="./images/logo.png" alt="Artify7pro-logo" width="" height="" style={{width:"60px", height:"35px"}}/>
-    </Link>
-  {/* </div> */}
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        
-      <li class="nav-item ms-2">
-          <Link to="/login" class="nav-link btn  btn-primary-dark btn-border" >Login</Link>
-        </li>
-        <li class="nav-item dropdown ms-2">
-          {/* <Link to="" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Login
-          </Link>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul> */}
-          <Link to="" class="btn btn-primary-dark dropdown-toggle "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Signup
-  </Link>
 
-  <ul class="dropdown-menu">
-  <li><Link to="/signup" class="dropdown-item" >Signup as User</Link></li>
-    <li><Link to="/signupartist" class="dropdown-item" >Signup as Artist</Link></li>
-    
-  </ul>
-        </li>
-        
-       
-      </ul>
-    </div>
-  </div>
-</nav>
 {/* ********************************************* */}
 
 {/* <nav class="navbar navbar-expand-lg bg-body-tertiary">

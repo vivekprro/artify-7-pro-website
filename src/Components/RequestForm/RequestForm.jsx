@@ -21,7 +21,9 @@ const Whatsapp = () => {
     
   
     // <a href="https://www.freepik.com/"><a/>
-    <div className="whatsapp-wrappper" style={{bottom: visible? "200px" :"-30px" }}>
+    <div className="whatsapp-wrappper" style={{bottom: visible? "200px" :"-30px" }}
+    
+    >
       {/* <a
         href="https://wa.me/918285607962?text=Hello, How may I help you ?"
         target="_blank"

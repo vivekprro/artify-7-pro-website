@@ -8,7 +8,7 @@ const BookNow = () => {
                   
              <div className="ask-expert mx-2">
                 <span>
-                 <Link to="/askform">
+                 <Link to="/booknow">
                  <span className="btn btn-primary-dark">
 
                   Book Now

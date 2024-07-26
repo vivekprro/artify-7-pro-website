@@ -16,7 +16,7 @@ const InnerHeading = ({path}) => {
                     </div>
                     <div className="col-md-2">
                         <div className="btn-page-header">
-                            <Link to="/contactus" className=' btn-warning' >
+                            <Link to="/contactus" className=' btn-warning'  style={{background:"transparent", border:"3px solid white"}}>
                             <IoMail size={15} className='me-2' />
                             Quick Enquiry
                             </Link>

@@ -1,5 +1,9 @@
-.whatsapp-wrappper{
-    background-color: #fff;
+
+.request-form 
+{
+    border: 5px solid #6B5233;
+}.whatsapp-wrappper{
+    /* background-color: #fff; */
     position: fixed;
     height:100px;
     width: 250px;
@@ -15,5 +19,12 @@ animation-timing-function: ease-in;
     color: #fff;
 }
 .request-form{
-    background: #fff;
+    /* background-image: url('./images/logo.png') ; */
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                  url("logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    
+    
 }

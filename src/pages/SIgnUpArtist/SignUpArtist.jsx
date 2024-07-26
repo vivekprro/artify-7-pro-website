@@ -59,9 +59,15 @@ const SignUpArtist = ({path}) => {
       </video>
       <InnerHeading path={path}/>
       <div className="container signup ">
+    
         {/* content */}
+        <div className="row my-5">
+          <div className="col">
+            <img src="./images/priya-banner.png" alt="" srcset="" style={{maxHeight:"400px",maxWidth:"100%"}}/>
+          </div>
+        </div>
         <div className="row mx-auto my-5">
-          <div className="col-md-6" >
+          {/* <div className="col-md-6" >
           <p><span>Makeup Artists:</span> Our makeup artists are experts in creating flawless, camera-ready looks for any occasion.</p>
             <p><span>Hair Stylists:</span> Our hair stylists are skilled in the latest cutting-edge techniques and trends, delivering bespoke hairstyles that exceed expectations.</p>
             <p><span>Nail Artists:</span> Our nail artists are renowned for their intricate designs and attention to detail, transforming nails into works of art.</p>
@@ -73,10 +79,10 @@ const SignUpArtist = ({path}) => {
             <p><span>Painters:</span> Our painters are visionary artists who bring color, emotion, and depth to every canvas, creating one-of-a-kind masterpieces that inspire and delight.</p>
             <p><span>Makeup Artists:</span>Special Teachers: Our special teachers are dedicated educators who provide personalized support and guidance, empowering students to reach their full potential.</p>
           
-          </div>
-          <div className="col-md-6 m-auto" style={{background:"white",}}>
+          </div> */}
+          <div className="col-md-12 m-auto request-form " >
             <form
-              className="px-4 py-2"
+              className="px-4 py-2 "
               // action="POST"
               // method="POST"
               onSubmit={handleSubmit}

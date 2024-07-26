@@ -61,9 +61,9 @@ const Signup = ({path}) => {
       <InnerHeading path={path}/>
       <div className="container signup ">
         <div className="row border w-25 mx-auto my-5">
-          <div className="col " style={{background:"white"}}>
+          <div className="col request-form " >
             <form
-              className="px-4 py-2"
+              className="px-4 py-2  "
               // action="POST"
               // method="POST"
               onSubmit={handleSubmit}

@@ -4,6 +4,7 @@ import axios from "axios";
 import "./Login.css"
 import Footer from "../Footer";
 import InnerHeading from "../InnerHeading/InnerHeading";
+import Bgvideo from "../Bgvideo/Bgvideo";
 
 const Login = ({path}) => {
   // const history = useNavigate(); 
@@ -45,14 +46,15 @@ const Login = ({path}) => {
 
   return (
     <>
-    <video autoPlay loop id="myVideo">
-        <source src="./images/home-video.mp4" type="video/mp4" />
-      </video>
+    <Bgvideo/>
+   
       {/* innerHeading */}
       <InnerHeading path={path}/>
       <div className="container login">
         <div className="row  mx-auto my-auto align-items-center h-100">
-          <div className="col-md-4 m-auto " style={{background:"white"}}>
+          <div className="col-md-4 m-auto request-form " 
+          // style={{background:"white"}}
+          >
             <form className="px-4 py-2" action="POST">
               <div className="text-center mb-5">
                 <h2>Login</h2>

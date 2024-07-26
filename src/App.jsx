@@ -65,7 +65,7 @@ function App() {
           <Route path="/makeup" element={<MakeupSearch path="Makeup Artist"/>}>
             {" "}
           </Route>
-          <Route path="/hairstyle" element={<HairStyle path="Hair Stylish"/>}>
+          <Route path="/hairstyle" element={<HairStyle path="Hair Stylist"/>}>
             {" "}
           </Route>
           <Route path="/nailart" element={<Nailart path="Nail Artist" />}>
@@ -74,7 +74,7 @@ function App() {
           <Route path="/henna" element={<Hennaart path="Henna Artist" />}>
             {" "}
           </Route>
-          <Route path="/fashion" element={<Fashionart path="Fashion Stylish" />}>
+          <Route path="/fashion" element={<Fashionart path="Fashion Designer" />}>
             {" "}
           </Route>
           <Route path="/dance" element={<Danceart path="Dancer" />}>
@@ -89,13 +89,16 @@ function App() {
           <Route path="/writer" element={<Writeart path="Writer" />}>
             {" "}
           </Route>
-          <Route path="/teacher" element={<Teacherart path="Writer" />}>
+          <Route path="/teacher" element={<Teacherart path="Teacher" />}>
             {" "}
           </Route>
           <Route path="/contact " element={<Signup path="Sign Up"/>}>
             {" "}
           </Route>
           <Route path="/askform" element={<AskForm path="Ask Form" />}>
+            {" "}
+          </Route>
+          <Route path="/booknow" element={<AskForm path="Book Now" />}>
             {" "}
           </Route>
           <Route path="/termscondition" element={<TermsCondition path="Terms & Condition" />}>
@@ -110,7 +113,7 @@ function App() {
           <Route path="/refundcancelation" element={<RefundCancelation path="Reafund & Cancelation"/>}>
             {" "}
           </Route>
-          <Route path="/contactus" element={<ContactUs path="Contactus"/>}>
+          <Route path="/contactus" element={<ContactUs path="Contact us"/>}>
             {" "}
           </Route>
           {/* <Route path="/seeratgill" element={<SeeratGillProfile/>}>

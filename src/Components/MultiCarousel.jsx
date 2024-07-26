@@ -204,7 +204,7 @@ const MultiCarousel = () => {
           srcSet=""
         />
         <div className="card-layer"></div>
-        <div className="card-text">Painting</div>
+        <div className="card-text">Painter</div>
         {/* <h2>dancing</h2> */}
         {/* <p className="price">$20.99</p> */}
         {/* <p>some description about product</p> */}

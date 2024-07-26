@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import FixedPrice from "../../Components/FilterPrices/FixedPrice";
 import Footer from "../../Components/Footer";
 import InnerHeading from "../../Components/InnerHeading/InnerHeading";
+import AskExpert from "../../Components/AskExpert/AskExpert";
+import BookNow from "../../Components/BookNow/BookNow";
 
 const Hennaart = ({path}) => {
 //   -indian henna
@@ -109,6 +111,12 @@ const Hennaart = ({path}) => {
                   />
                 </div>
                 <FixedPrice/>
+                <div className="row my-4">
+                      <div className="col"><AskExpert/></div>
+                      <div className="col"><BookNow/></div>
+                       
+                      
+                    </div>
                 {/* <div className="filter-header  d-flex justify-content-between align-items-end mb-3 mt-4">
                   <span className="d-inline-block fs-5 fw-bolder">
                     Project Type
